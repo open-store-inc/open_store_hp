@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>株式会社 OPEN STORE</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
@@ -44,12 +45,12 @@
     <div class="container clear">
         <div class="top">
             <div class="top-logo">
-                <h3>あなたのお店を、<span>全ての場所に</span></h3>
+                <h3>あなたの価値を、<span>全ての場所に</span></h3>
                 　　　<p>いつでもどこでもすべての場所に</p>
             </div>
             <div class="top-me">
-                <p>あらゆる不動産の選択で、
-                    <br>暮らしをもっとあなたの「色」に。
+                <p>Branding your value everywhere
+                    <br>
                 </p>
             </div>
             <div class="sc ">
@@ -70,22 +71,27 @@
                             <a href="#">WEB CONSULTING</a>
                         </div>
                         <div class="main1-bo">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
+                            <p>
+                            　お客様の抱えている悩みをお聞かせていただき、<br>
+                            　最適な解決策をご案内します。
+                        　　</p>
+                        <button type="button">知る</button>
                         </div>
                     </div>
                 </div>
                 <div class="main1">
                     <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
-                            <p>WEBサイト制作/開発</p>
+                            <p>WEBサービス制作/開発</p>
                             <a href="#">WEB DESIGN</a>
                         </div>
                         <div class="main1-bo">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
+                            <p>
+                            　あくまでもユーザーの為のもの<br>
+                            　お客様の「伝えたいコト」「やりたいコト」をユーザーの求めるコト<br>
+                        　　　を様々なカタチで実現します。
+                        　　</p>
+                        <button type="button">創る</button>
                         </div>
                     </div>
                 </div>
@@ -93,13 +99,15 @@
                     <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
 
-                            <p>WEBマーケティング/運用</p>
+                            <p>ECサイト構築/運営</p>
                             <a href="#">WEBOPERATION</a>
                         </div>
                         <div class="main1-bo">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
+                            <p>
+                                お客様の商品やサービスを<br>
+                                日本中、世界中に届けます。
+                            </p>
+                            <button type="button">届ける</button>
                         </div>
                     </div>
                 </div>
@@ -109,13 +117,17 @@
                     <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
 
-                            <p>ECサイト構築/運営</p>
+                            <p>WEBマーケティング/運用</p>
                             <a href="#">WEBCONSULTING</a>
                         </div>
                         <div class="main1-bo">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
+                            <p>
+                                インターネット上で<br>
+                                「だれに」「どこで」「どう伝えるか」<br>
+                                を考えてユーザーを集める為の<br>
+                                仕組みを提供します。
+                            </p>
+                            <button type="button">拡げる</button>
                         </div>
                     </div>
                 </div>
@@ -126,9 +138,11 @@
                             <a href="#">WEB DESIGN</a>
                         </div>
                         <div class="main1-bo">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
+                            <p>
+                                お客様のブランドが<br>
+                                しっかり記憶に残るクリエイティブを制作します。
+                            </p>
+                            <button type="button">魅せる</button>
                         </div>
                     </div>
                 </div>
@@ -140,9 +154,11 @@
                             <a href="#">WEBOPERATION</a>
                         </div>
                         <div class="main1-bo">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
+                            <p>
+                                顧客管理、営業管理システムといった<br>
+                                ITを導入して業務効率の改善を図ります。
+                            </p>
+                            <button type="button">楽する</button>
                         </div>
                     </div>
                 </div>
