@@ -34,9 +34,12 @@
                             src="https://everydayicons.jp/wp/wp-content/themes/everydayicons/icons/png/ei-menu.png"
                             alt=""> </a>
                     <ul id="header-toggle">
-                        <li>初級</li>
-                        <li>中級</li>
-                        <li>上級</li>
+                        <li>OPEN STORE</li>
+                        <li>SERVICE</li>
+                        <li>NEWS</li>
+                        <li>WORKFLOW</li>
+                        <li>COMPANY</li>
+                        <li>CONTACT</li>
                     </ul>
                 </div>
             </div>
