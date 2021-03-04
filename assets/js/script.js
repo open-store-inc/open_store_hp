@@ -1,7 +1,10 @@
-$('#header-course').click(
-    function () {
-    $('#header-toggle').slideToggle();
-    $('#header-toggle').toggleClass("active");
+
+// wordpressでは$は使えない
+// jQuery(document).ready(function($){
+        $('#header-course').click(
+        function () {
+        $('#header-toggle').slideToggle();
+        $('#header-toggle').toggleClass("active");
     });
 
     $(function () {
@@ -16,3 +19,4 @@ $('#header-course').click(
             });
         });
     });
+// });

@@ -2,14 +2,29 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
     <title>株式会社 OPEN STORE</title>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css"/>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" type="text/css" />
+
+    <!-- CSSを読み込んだ後にjsを読み込むようにしましょう -->
+    <!-- <script src="script.js"></script> -->
+    <!-- デフォルトのjqを削除 -->
+    <?php
+    wp_deregister_script('jquery');
+    wp_head();
+    ?>
+
+    <!-- jquery読み込み -->
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib/jquery.js"></script>
+    
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    
+</script>
 </head>
 
 <body>
@@ -21,7 +36,7 @@
         <div class="header container ">
             <div class="header-left">
                 <div class="header-logo">
-                    <a href="">OPEN STORE</a>
+                    <a href="#"><img src="" alt=""></a>
                 </div>
 
             </div>
@@ -34,12 +49,9 @@
                             src="https://everydayicons.jp/wp/wp-content/themes/everydayicons/icons/png/ei-menu.png"
                             alt=""> </a>
                     <ul id="header-toggle">
-                        <li>OPEN STORE</li>
-                        <li>SERVICE</li>
-                        <li>NEWS</li>
-                        <li>WORKFLOW</li>
-                        <li>COMPANY</li>
-                        <li>CONTACT</li>
+                        <li>初級</li>
+                        <li>中級</li>
+                        <li>上級</li>
                     </ul>
                 </div>
             </div>
@@ -48,12 +60,12 @@
     <div class="container clear">
         <div class="top">
             <div class="top-logo">
-                <h3>あなたの価値を、<span>全ての場所に</span></h3>
+                <h3>あなたのお店を、<span>全ての場所に</span></h3>
                 　　　<p>いつでもどこでもすべての場所に</p>
             </div>
             <div class="top-me">
-                <p>Branding your value everywhere
-                    <br>
+                <p>あらゆる不動産の選択で、
+                    <br>暮らしをもっとあなたの「色」に。
                 </p>
             </div>
             <div class="sc ">
@@ -74,27 +86,22 @@
                             <a href="#">WEB CONSULTING</a>
                         </div>
                         <div class="main1-bo">
-                            <p>
-                            　お客様の抱えている悩みをお聞かせていただき、<br>
-                            　最適な解決策をご案内します。
-                        　　</p>
-                        <button type="button">知る</button>
+                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
+                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
+                                様々なご要望にお応えできるのが私たちの強みです</p>
                         </div>
                     </div>
                 </div>
                 <div class="main1">
                     <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
-                            <p>WEBサービス制作/開発</p>
+                            <p>WEBサイト制作/開発</p>
                             <a href="#">WEB DESIGN</a>
                         </div>
                         <div class="main1-bo">
-                            <p>
-                            　あくまでもユーザーの為のもの<br>
-                            　お客様の「伝えたいコト」「やりたいコト」をユーザーの求めるコト<br>
-                        　　　を様々なカタチで実現します。
-                        　　</p>
-                        <button type="button">創る</button>
+                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
+                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
+                                様々なご要望にお応えできるのが私たちの強みです</p>
                         </div>
                     </div>
                 </div>
@@ -102,15 +109,13 @@
                     <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
 
-                            <p>ECサイト構築/運営</p>
+                            <p>WEBマーケティング/運用</p>
                             <a href="#">WEBOPERATION</a>
                         </div>
                         <div class="main1-bo">
-                            <p>
-                                お客様の商品やサービスを<br>
-                                日本中、世界中に届けます。
-                            </p>
-                            <button type="button">届ける</button>
+                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
+                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
+                                様々なご要望にお応えできるのが私たちの強みです</p>
                         </div>
                     </div>
                 </div>
@@ -120,17 +125,13 @@
                     <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
 
-                            <p>WEBマーケティング/運用</p>
+                            <p>ECサイト構築/運営</p>
                             <a href="#">WEBCONSULTING</a>
                         </div>
                         <div class="main1-bo">
-                            <p>
-                                インターネット上で<br>
-                                「だれに」「どこで」「どう伝えるか」<br>
-                                を考えてユーザーを集める為の<br>
-                                仕組みを提供します。
-                            </p>
-                            <button type="button">拡げる</button>
+                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
+                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
+                                様々なご要望にお応えできるのが私たちの強みです</p>
                         </div>
                     </div>
                 </div>
@@ -141,11 +142,9 @@
                             <a href="#">WEB DESIGN</a>
                         </div>
                         <div class="main1-bo">
-                            <p>
-                                お客様のブランドが<br>
-                                しっかり記憶に残るクリエイティブを制作します。
-                            </p>
-                            <button type="button">魅せる</button>
+                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
+                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
+                                様々なご要望にお応えできるのが私たちの強みです</p>
                         </div>
                     </div>
                 </div>
@@ -157,11 +156,9 @@
                             <a href="#">WEBOPERATION</a>
                         </div>
                         <div class="main1-bo">
-                            <p>
-                                顧客管理、営業管理システムといった<br>
-                                ITを導入して業務効率の改善を図ります。
-                            </p>
-                            <button type="button">楽する</button>
+                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
+                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
+                                様々なご要望にお応えできるのが私たちの強みです</p>
                         </div>
                     </div>
                 </div>
@@ -228,7 +225,9 @@
                     <div class="workflow1-item">
                         <div class="workflow1-item1 scrollanime slide-left">
                             <div class="workimg">
-                                <img src="image/1.png"
+                                <!-- <img src="<?php echo get_template_directory_uri(); ?>/image/1.png" -->
+                                <!-- フォルダ名はimgでは？ -->
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/1.png"
                                     alt="">
                             </div>
                             <p>STEP 01
@@ -238,7 +237,7 @@
                         <div class="yaji scrollanime downup">→</div>
                         <div class="workflow1-item1 scrollanime slide-left">
                             <div class="workimg">
-                                <img src="https://files.slack.com/files-pri/T01JL7QT9J6-F01PJS220F9/adobestock_218241262-______________.png"
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/2.png"
                                     alt="">
                             </div>
                             <p>STEP 02
@@ -248,7 +247,7 @@
                         <div class="yaji scrollanime downup">→</div>
                         <div class="workflow1-item1 scrollanime slide-left">
                             <div class="workimg">
-                                <img src="https://files.slack.com/files-pri/T01JL7QT9J6-F01PSRYNT7Y/adobestock_218241294-______________.png"
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/3.png"
                                     alt="">
                             </div>
                             <p>STEP 03
@@ -261,7 +260,7 @@
                         <div class="workflow2-item">
                             <div class="workflow1-item1 scrollanime slide-left">
                                 <div class="workimg">
-                                    <img src="img/adobestock_173136786-______________.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/4.png" alt="">
                                 </div>
                                 <p>STEP 04
                                     <br>デザイン制作
@@ -270,7 +269,7 @@
                             <div class="yaji scrollanime downup">→</div>
                             <div class="workflow1-item1 scrollanime slide-left">
                                 <div class="workimg">
-                                    <img src="https://files.slack.com/files-pri/T01JL7QT9J6-F01Q5QA8FSQ/adobestock_232162466-______________.png"
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/5.png"
                                         alt="">
                                 </div>
                                 <p>STEP 05
@@ -280,7 +279,7 @@
                             <div class="yaji scrollanime downup">→</div>
                             <div class="workflow1-item1 scrollanime slide-left">
                                 <div class="workimg">
-                                    <img src="https://files.slack.com/files-pri/T01JL7QT9J6-F01Q5QACZM2/adobestock_266836356-______________.png"
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/6.png"
                                         alt="">
                                 </div>
                                 <p>STEP 06
@@ -443,8 +442,8 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="script.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script> -->
 </body>
 <footer>
     <div class="footer">
