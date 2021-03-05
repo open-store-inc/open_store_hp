@@ -5,7 +5,7 @@
     <title>株式会社 OPEN STORE</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css"/>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" type="text/css" />
 
     <!-- CSSを読み込んだ後にjsを読み込むようにしましょう -->
@@ -18,13 +18,13 @@
 
     <!-- jquery読み込み -->
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib/jquery.js"></script>
-    
+
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+    </script>
 </head>
 
 <body>
@@ -45,9 +45,7 @@
 
                 </div>
                 <div class="header-nav" style="width:100px;">
-                    <a href="#" id="header-course"><img
-                            src="https://everydayicons.jp/wp/wp-content/themes/everydayicons/icons/png/ei-menu.png"
-                            alt=""> </a>
+                    <a href="#" id="header-course"><img src="https://everydayicons.jp/wp/wp-content/themes/everydayicons/icons/png/ei-menu.png" alt=""> </a>
                     <ul id="header-toggle">
                         <li>初級</li>
                         <li>中級</li>
@@ -227,8 +225,7 @@
                             <div class="workimg">
                                 <!-- <img src="<?php echo get_template_directory_uri(); ?>/image/1.png" -->
                                 <!-- フォルダ名はimgでは？ -->
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/1.png"
-                                    alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/1.png" alt="">
                             </div>
                             <p>STEP 01
                                 <br>お打ち合わせ
@@ -236,23 +233,25 @@
                         </div>
                         <div class="yaji scrollanime downup">→</div>
                         <div class="workflow1-item1 scrollanime slide-left">
-                            <div class="workimg">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/2.png"
-                                    alt="">
+                            <div class="x">
+                                <div class="workimg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/2.png" alt="">
+                                </div>
+                                <p>STEP 02
+                                    <br>提案書 見積り
+                                </p>
                             </div>
-                            <p>STEP 02
-                                <br>提案書 見積り
-                            </p>
                         </div>
                         <div class="yaji scrollanime downup">→</div>
                         <div class="workflow1-item1 scrollanime slide-left">
-                            <div class="workimg">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/3.png"
-                                    alt="">
+                            <div class="x2">
+                                <div class="workimg">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/3.png" alt="">
+                                </div>
+                                <p>STEP 03
+                                    <br>ご契約
+                                </p>
                             </div>
-                            <p>STEP 03
-                                <br>ご契約
-                            </p>
                         </div>
                     </div>
                     <div class="yaji2 scrollanime downup">↙</div>
@@ -268,23 +267,25 @@
                             </div>
                             <div class="yaji scrollanime downup">→</div>
                             <div class="workflow1-item1 scrollanime slide-left">
-                                <div class="workimg">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/5.png"
-                                        alt="">
+                                <div class="x">
+                                    <div class="workimg">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="">
+                                    </div>
+                                    <p>STEP 05
+                                        <br>サイト構築
+                                    </p>
                                 </div>
-                                <p>STEP 05
-                                    <br>サイト構築
-                                </p>
                             </div>
                             <div class="yaji scrollanime downup">→</div>
                             <div class="workflow1-item1 scrollanime slide-left">
-                                <div class="workimg">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/6.png"
-                                        alt="">
+                                <div class="x2">
+                                    <div class="workimg">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/6.png" alt="">
+                                    </div>
+                                    <p>STEP 06
+                                        <br>完成 運用
+                                    </p>
                                 </div>
-                                <p>STEP 06
-                                    <br>完成 運用
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -302,8 +303,7 @@
                 <div class="past-item">
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
-                                alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -318,8 +318,7 @@
                     </div>
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
-                                alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -334,8 +333,7 @@
                     </div>
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
-                                alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -405,8 +403,7 @@
                 <div class="past-item">
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
-                                alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -416,8 +413,7 @@
                     </div>
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
-                                alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -428,8 +424,7 @@
                     </div>
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
-                                alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
