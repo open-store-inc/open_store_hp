@@ -1,7 +1,7 @@
 
 // wordpressでは$は使えない
 // jQuery(document).ready(function($){
-        $('#header-course').click(
+    $('#header-course').click(
         function () {
         $('#header-toggle').slideToggle();
         $('#header-toggle').toggleClass("active");

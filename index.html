@@ -2,29 +2,14 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title>株式会社 OPEN STORE</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" type="text/css" />
-
-    <!-- CSSを読み込んだ後にjsを読み込むようにしましょう -->
-    <!-- <script src="script.js"></script> -->
-    <!-- デフォルトのjqを削除 -->
-    <?php
-    wp_deregister_script('jquery');
-    wp_head();
-    ?>
-
-    <!-- jquery読み込み -->
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib/jquery.js"></script>
-
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-
-    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -36,7 +21,7 @@
         <div class="header container ">
             <div class="header-left">
                 <div class="header-logo">
-                    <a href="#"><img src="" alt=""></a>
+                    <a href="">OPEN STORE</a>
                 </div>
 
             </div>
@@ -45,11 +30,16 @@
 
                 </div>
                 <div class="header-nav" style="width:100px;">
-                    <a href="#" id="header-course"><img src="https://everydayicons.jp/wp/wp-content/themes/everydayicons/icons/png/ei-menu.png" alt=""> </a>
+                    <a href="#" id="header-course"><img
+                            src="https://everydayicons.jp/wp/wp-content/themes/everydayicons/icons/png/ei-menu.png"
+                            alt=""> </a>
                     <ul id="header-toggle">
-                        <li>初級</li>
-                        <li>中級</li>
-                        <li>上級</li>
+                        <li>OPEN STORE</li>
+                        <li>SERVICE</li>
+                        <li>NEWS</li>
+                        <li>WORKFLOW</li>
+                        <li>COMPANY</li>
+                        <li>CONTACT</li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +69,7 @@
             <div class="main container ">
                 <div class="main1">
                     <div class="main1-me scrollanime slide-left ">
-                    <div class="main1-to">
+                        <div class="main1-to">
                             <p>WEBコンサルティング</p>
                             <a href="#">WEB CONSULTING</a>
                         </div>
@@ -96,7 +86,7 @@
                     </div>
                 </div>
                 <div class="main1">
-                <div class="main1-me scrollanime slide-left">
+                    <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
                             <p>WEBサービス制作/開発</p>
                             <a href="#">WEB DESIGN</a>
@@ -113,7 +103,7 @@
                     </div>
                 </div>
                 <div class="main1">
-                <div class="main1-me scrollanime slide-left">
+                    <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
 
                             <p>ECサイト構築/運営</p>
@@ -132,7 +122,7 @@
             </div>
             <div class="main1-1 container">
                 <div class="main1">
-                <div class="main1-me scrollanime slide-left">
+                    <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
 
                             <p>WEBマーケティング/運用</p>
@@ -150,7 +140,7 @@
                     </div>
                 </div>
                 <div class="main1">
-                <div class="main1-me scrollanime slide-left">
+                    <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
                             <p>クリエイティブ制作</p>
                             <a href="#">WEB DESIGN</a>
@@ -167,7 +157,7 @@
                     </div>
                 </div>
                 <div class="main1">
-                <div class="main1-me scrollanime slide-left">
+                    <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
 
                             <p>システム開発</p>
@@ -247,9 +237,8 @@
                     <div class="workflow1-item">
                         <div class="workflow1-item1 scrollanime slide-left">
                             <div class="workimg">
-                                <!-- <img src="<?php echo get_template_directory_uri(); ?>/image/1.png" -->
-                                <!-- フォルダ名はimgでは？ -->
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/1.png" alt="">
+                                <img src="image/1.png"
+                                    alt="">
                             </div>
                             <p>STEP 01
                                 <br>お打ち合わせ
@@ -257,25 +246,23 @@
                         </div>
                         <div class="yaji scrollanime downup">→</div>
                         <div class="workflow1-item1 scrollanime slide-left">
-                            <div class="x">
-                                <div class="workimg">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/2.png" alt="">
-                                </div>
-                                <p>STEP 02
-                                    <br>提案書 見積り
-                                </p>
+                            <div class="workimg">
+                                <img src="https://files.slack.com/files-pri/T01JL7QT9J6-F01PJS220F9/adobestock_218241262-______________.png"
+                                    alt="">
                             </div>
+                            <p>STEP 02
+                                <br>提案書 見積り
+                            </p>
                         </div>
                         <div class="yaji scrollanime downup">→</div>
                         <div class="workflow1-item1 scrollanime slide-left">
-                            <div class="x2">
-                                <div class="workimg">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/3.png" alt="">
-                                </div>
-                                <p>STEP 03
-                                    <br>ご契約
-                                </p>
+                            <div class="workimg">
+                                <img src="https://files.slack.com/files-pri/T01JL7QT9J6-F01PSRYNT7Y/adobestock_218241294-______________.png"
+                                    alt="">
                             </div>
+                            <p>STEP 03
+                                <br>ご契約
+                            </p>
                         </div>
                     </div>
                     <div class="yaji2 scrollanime downup">↙</div>
@@ -283,7 +270,7 @@
                         <div class="workflow2-item">
                             <div class="workflow1-item1 scrollanime slide-left">
                                 <div class="workimg">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/4.png" alt="">
+                                    <img src="img/adobestock_173136786-______________.png" alt="">
                                 </div>
                                 <p>STEP 04
                                     <br>デザイン制作
@@ -291,25 +278,23 @@
                             </div>
                             <div class="yaji scrollanime downup">→</div>
                             <div class="workflow1-item1 scrollanime slide-left">
-                                <div class="x">
-                                    <div class="workimg">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="">
-                                    </div>
-                                    <p>STEP 05
-                                        <br>サイト構築
-                                    </p>
+                                <div class="workimg">
+                                    <img src="https://files.slack.com/files-pri/T01JL7QT9J6-F01Q5QA8FSQ/adobestock_232162466-______________.png"
+                                        alt="">
                                 </div>
+                                <p>STEP 05
+                                    <br>サイト構築
+                                </p>
                             </div>
                             <div class="yaji scrollanime downup">→</div>
                             <div class="workflow1-item1 scrollanime slide-left">
-                                <div class="x2">
-                                    <div class="workimg">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/img/6.png" alt="">
-                                    </div>
-                                    <p>STEP 06
-                                        <br>完成 運用
-                                    </p>
+                                <div class="workimg">
+                                    <img src="https://files.slack.com/files-pri/T01JL7QT9J6-F01Q5QACZM2/adobestock_266836356-______________.png"
+                                        alt="">
                                 </div>
+                                <p>STEP 06
+                                    <br>完成 運用
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -327,7 +312,8 @@
                 <div class="past-item">
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
+                                alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -342,7 +328,8 @@
                     </div>
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
+                                alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -357,7 +344,8 @@
                     </div>
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
+                                alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -427,7 +415,8 @@
                 <div class="past-item">
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
+                                alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -437,7 +426,8 @@
                     </div>
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
+                                alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -448,7 +438,8 @@
                     </div>
                     <div class="past-main scrollanime slide-left">
                         <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg"
+                                alt="">
                         </div>
                         <div class="past-me">
                             <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
@@ -461,8 +452,8 @@
             </div>
         </div>
     </div>
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="script.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
 </body>
 <footer>
     <div class="footer">
