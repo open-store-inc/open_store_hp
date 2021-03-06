@@ -78,18 +78,15 @@ Template Name: service.php
                 </div>
             </div>
         </div>
-        <div class="container">
+       <div class="container">
             <div class="consult1">
                 <div class="consult1-top ">
-                    <h3>綿密なヒアリングと
-                        徹底的なマーケットリサーチで現状の課題を分析、
-                        お客様にとって最適なWEB戦略を立案いたします。</h3>
+                    <h3>「WEBサービス」の成功は戦略で決まる</h3>
                 </div>
                 <div class="consult1-me">
-                    <p class="">お客様の抱えている課題やご要望を丁寧にヒアリングいたします。
-                        さらに、業界や競合について徹底的に調査し、WEB戦略を立案いたします。
-                        また、エムハンドは<span class="">創業以来600社以上の方とやりとりをした実績</span>を元に、
-                        継続的なPDCAサイクルで、<span class="">確実に成果が出るコンサルティングを行います。</span></p>
+                    <p class="">綿密なヒアリングをもとに、WEBサービスの問題発見や解決策の提案、戦略立案などを中心に、
+                        <span class="">お客様が最適なWEBサービスを活用できるようサポートします。</span>
+                    </p>
                 </div>
             </div>
             <div class="consult2">
@@ -102,7 +99,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT!1</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -111,7 +108,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT2</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -120,7 +117,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT!3</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -143,15 +140,10 @@ Template Name: service.php
         <div class="container">
             <div class="consult1">
                 <div class="consult1-top ">
-                    <h3>綿密なヒアリングと
-                        徹底的なマーケットリサーチで現状の課題を分析、
-                        お客様にとって最適なWEB戦略を立案いたします。</h3>
+                    <h3>あくまでもユーザーのためのもの。</h3>
                 </div>
                 <div class="consult1-me ">
-                    <p>お客様の抱えている課題やご要望を丁寧にヒアリングいたします。
-                        さらに、業界や競合について徹底的に調査し、WEB戦略を立案いたします。
-                        また、エムハンドは<span>創業以来600社以上の方とやりとりをした実績</span>を元に、
-                        継続的なPDCAサイクルで、<span>確実に成果が出るコンサルティングを行います。</span></p>
+                    <p>お客様の「伝えたいコト」「やりたいコト」とユーザーの「求めているコト」<span>を用いて様々なカタチで実現します。</span></p>
                 </div>
             </div>
             <div class="consult2">
@@ -164,7 +156,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT!1</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -173,7 +165,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT２</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -182,7 +174,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT3</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -191,68 +183,6 @@ Template Name: service.php
         </div>
     </div>
     <div class="consulting" 　id = "3">
-        <div class="container">
-            <div class="consult">
-                <div class="consult-me ">
-                    <h3>WEBマーケティング/運用<span>WEB CONSULTING</span></h3>
-                    <p>ターゲティング/戦略/インフルエンサーマーケティング/SNS広告/GDN/YDN広告/リスティング広告/DSP広告/ユーザビリティ調査/ヒューリスティック評価/</p>
-                </div>
-                <div class="consult-img ">
-                    <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="consult1">
-                <div class="consult1-top ">
-                    <h3>綿密なヒアリングと
-                        徹底的なマーケットリサーチで現状の課題を分析、
-                        お客様にとって最適なWEB戦略を立案いたします。</h3>
-                </div>
-                <div class="consult1-me ">
-                    <p>お客様の抱えている課題やご要望を丁寧にヒアリングいたします。
-                        さらに、業界や競合について徹底的に調査し、WEB戦略を立案いたします。
-                        また、エムハンドは<span>創業以来600社以上の方とやりとりをした実績</span>を元に、
-                        継続的なPDCAサイクルで、<span>確実に成果が出るコンサルティングを行います。</span></p>
-                </div>
-            </div>
-            <div class="consult2">
-                <div class="consult2-top ">
-                    <h3>POINT<span>!</span></h3>
-                </div>
-                <div class="con-course">
-                    <div class="course ">
-                        <div class="course-img ">
-                            <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
-                        </div>
-                        <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
-                            <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
-                        </div>
-                    </div>
-                    <div class="course ">
-                        <div class="course-img ">
-                            <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
-                        </div>
-                        <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
-                            <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
-                        </div>
-                    </div>
-                    <div class="course ">
-                        <div class="course-img ">
-                            <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
-                        </div>
-                        <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
-                            <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="consulting" 　id = "4">
         <div class="container">
             <div class="consult">
                 <div class="consult-img ">
@@ -267,15 +197,13 @@ Template Name: service.php
         <div class="container">
             <div class="consult1">
                 <div class="consult1-top ">
-                    <h3>綿密なヒアリングと
-                        徹底的なマーケットリサーチで現状の課題を分析、
-                        お客様にとって最適なWEB戦略を立案いたします。</h3>
+                    <h3>あなたのお店を、全ての場所に</h3>
                 </div>
                 <div class="consult1-me ">
-                    <p>お客様の抱えている課題やご要望を丁寧にヒアリングいたします。
-                        さらに、業界や競合について徹底的に調査し、WEB戦略を立案いたします。
-                        また、エムハンドは<span>創業以来600社以上の方とやりとりをした実績</span>を元に、
-                        継続的なPDCAサイクルで、<span>確実に成果が出るコンサルティングを行います。</span></p>
+                    <p>お客様の商品やオリジナルブランドを
+                        独自のオンラインショップを通じて
+                        <span>誰にでもどこにでもお届けすることができます。</span>
+                    </p>
                 </div>
             </div>
             <div class="consult2">
@@ -288,7 +216,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT１</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -297,7 +225,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT２</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -306,7 +234,64 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me ">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT３</h3>
+                            <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="consulting" 　id = "4">
+        <div class="container">
+            <div class="consult">
+                <div class="consult-me ">
+                    <h3>WEBマーケティング/運用<span>WEB CONSULTING</span></h3>
+                    <p>ターゲティング/戦略/インフルエンサーマーケティング/SNS広告/GDN/YDN広告/リスティング広告/DSP広告/ユーザビリティ調査/ヒューリスティック評価/</p>
+                </div>
+                <div class="consult-img ">
+                    <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="consult1">
+                <div class="consult1-top ">
+                    <h3>「だれに」「どこで」「どう伝えるか」</h3>
+                </div>
+                <div class="consult1-me ">
+                    <p><span>デジタル広告の重要性が非常に高まっている今。</span>インターネット上でユーザーを集める為の仕組みづくりを提供します。</p>
+                </div>
+            </div>
+            <div class="consult2">
+                <div class="consult2-top ">
+                    <h3>POINT<span>!</span></h3>
+                </div>
+                <div class="con-course">
+                    <div class="course ">
+                        <div class="course-img ">
+                            <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
+                        </div>
+                        <div class="course-me ">
+                            <h3>POINT１</h3>
+                            <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
+                        </div>
+                    </div>
+                    <div class="course ">
+                        <div class="course-img ">
+                            <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
+                        </div>
+                        <div class="course-me ">
+                            <h3>POINT２</h3>
+                            <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
+                        </div>
+                    </div>
+                    <div class="course ">
+                        <div class="course-img ">
+                            <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
+                        </div>
+                        <div class="course-me ">
+                            <h3>POINT３</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -329,15 +314,13 @@ Template Name: service.php
         <div class="container">
             <div class="consult1">
                 <div class="consult1-top">
-                    <h3>綿密なヒアリングと
-                        徹底的なマーケットリサーチで現状の課題を分析、
-                        お客様にとって最適なWEB戦略を立案いたします。</h3>
+                    <h3>創造がビジネスを加速させる</h3>
                 </div>
                 <div class="consult1-me">
-                    <p>お客様の抱えている課題やご要望を丁寧にヒアリングいたします。
-                        さらに、業界や競合について徹底的に調査し、WEB戦略を立案いたします。
-                        また、エムハンドは<span>創業以来600社以上の方とやりとりをした実績</span>を元に、
-                        継続的なPDCAサイクルで、<span>確実に成果が出るコンサルティングを行います。</span></p>
+                    <p><span>ユーザーのココロと行動を変化させ,
+                    お客様のブランドが 人々の記憶に深く刻まれるような
+                    "伝わる"クリエイティブを制作します。
+                    </span></p>
                 </div>
             </div>
             <div class="consult2">
@@ -350,7 +333,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT１</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -359,7 +342,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT２</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -368,7 +351,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT３</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -391,15 +374,12 @@ Template Name: service.php
         <div class="container">
             <div class="consult1">
                 <div class="consult1-top">
-                    <h3>綿密なヒアリングと
-                        徹底的なマーケットリサーチで現状の課題を分析、
-                        お客様にとって最適なWEB戦略を立案いたします。</h3>
+                    <h3>「効率」から「創造」へ</h3>
                 </div>
                 <div class="consult1-me">
-                    <p>お客様の抱えている課題やご要望を丁寧にヒアリングいたします。
-                        さらに、業界や競合について徹底的に調査し、WEB戦略を立案いたします。
-                        また、エムハンドは<span>創業以来600社以上の方とやりとりをした実績</span>を元に、
-                        継続的なPDCAサイクルで、<span>確実に成果が出るコンサルティングを行います。</span></p>
+                    <p><span>顧客管理、営業管理システムといった
+                        ITの導入により業務を効率化し、新たな
+                        ビジネスチャンスを創造します。</span></p>
                 </div>
             </div>
             <div class="consult2">
@@ -412,7 +392,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT１</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -421,7 +401,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT２</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
@@ -430,7 +410,7 @@ Template Name: service.php
                             <img src="https://m-hand.biz/cms/wp-content/themes/m-hand_inbound/img/service/ico_circle01.png" alt="">
                         </div>
                         <div class="course-me">
-                            <h3>綿密なヒアリング</h3>
+                            <h3>POINT３</h3>
                             <p>お客様ご自身では表現しきれなかったご要望を綿密なヒアリングで引き出し課題を明確にします。</p>
                         </div>
                     </div>
