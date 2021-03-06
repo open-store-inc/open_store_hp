@@ -78,12 +78,14 @@
         <div class="con-1 ">
             <div class="main container ">
                 <div class="main1">
+							<a  href="service/?id=1">
                     <div class="main1-me scrollanime slide-left ">
-                    <div class="main1-to">
+                    	<div class="main1-to">
                             <p>WEBコンサルティング</p>
-                            <a href="#">WEB CONSULTING</a>
+                            <a href="service/?id=1">WEB CONSULTING</a>
                         </div>
                         <div class="main1-bo">
+									<a href="service/?id=1" style="text-decoration: none; color:black;">
                             <h3>「WEBサービス」の成功は戦略で決まる</h3>
                             <p>
                             綿密なヒアリングをもとに、Webサービスの<br>問題発見や解決策の提案、戦略立案などを中心に、<br>
@@ -91,15 +93,18 @@
                             <!-- 　お客様の抱えている悩みをお聞かせていただき、<br>
                             　最適な解決策をご案内します。 -->
                         　　</p>
-                        <button type="button">MORE</button>
-                        </div>
+<!--                         <button type="button">MORE</button> -->
+									<p style="text-align: right">read more</p>
+								</a> 
+								</div>
                     </div>
+							</a>
                 </div>
                 <div class="main1">
                 <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
                             <p>WEBサービス制作/開発</p>
-                            <a href="#">WEB DESIGN</a>
+                            <a href="service/?id=2">WEB DESIGN</a>
                         </div>
                         <div class="main1-bo">
                             <h3>あくまでもユーザーのためのもの。</h3>
@@ -108,16 +113,16 @@
                             ユーザーの「求めているコト」をWEBサービスを<br>
                             用いて様々なカタチで実現します。
                         　　</p>
-                        <button type="button">MORE</button>
+<!--                         <button type="button">MORE</button> -->
+									<p style="text-align: right">read more</p>
                         </div>
                     </div>
                 </div>
                 <div class="main1">
                 <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
-
                             <p>ECサイト構築/運営</p>
-                            <a href="#">WEBOPERATION</a>
+                            <a href="service/?id=3">WEBOPERATION</a>
                         </div>
                         <div class="main1-bo">
                             <h3>あなたのお店を、全ての場所に</h3>
@@ -125,7 +130,8 @@
                                 お客様の商品やオリジナルブランドを<br>独自のオンラインショップを通じて<br>
                                 誰にでもどこにでもお届けすることができます。
                             </p>
-                            <button type="button">MORE</button>
+<!--                             <button type="button">MORE</button> -->
+										<p style="text-align: right">read more</p>
                         </div>
                     </div>
                 </div>
@@ -136,7 +142,7 @@
                         <div class="main1-to">
 
                             <p>WEBマーケティング/運用</p>
-                            <a href="#">WEBCONSULTING</a>
+                            <a href="service/?id=4">WEBCONSULTING</a>
                         </div>
                         <div class="main1-bo">
                             <h3>「だれに」「どこで」「どう伝えるか」</h3>
@@ -145,7 +151,8 @@
                                 インターネット上でユーザーを集める為の<br>
                                 仕組みづくりを提供します。
                             </p>
-                            <button type="button">MORE</button>
+<!--                             <button type="button">MORE</button> -->
+							<p style="text-align: right">read more</p>
                         </div>
                     </div>
                 </div>
@@ -153,7 +160,7 @@
                 <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
                             <p>クリエイティブ制作</p>
-                            <a href="#">WEB DESIGN</a>
+                            <a href="service/?id=5">WEB DESIGN</a>
                         </div>
                         <div class="main1-bo">
                             <h3>創造がビジネスを加速させる</h3>
@@ -162,7 +169,8 @@
                                 人々の記憶に深く刻まれるような<br>
                                 "伝わる"クリエイティブを制作します。
                             </p>
-                            <button type="button">MORE</button>
+<!--                             <button type="button">MORE</button> -->
+							<p style="text-align: right">read more</p>
                         </div>
                     </div>
                 </div>
@@ -171,7 +179,7 @@
                         <div class="main1-to">
 
                             <p>システム開発</p>
-                            <a href="#">WEBOPERATION</a>
+                            <a href="service/?id=6">WEBOPERATION</a>
                         </div>
                         <div class="main1-bo">
                             <h3>「効率」から「創造」へ</h3>
@@ -180,7 +188,8 @@
                                 ITの導入により業務を効率化し、新たな<br>
                                 ビジネスチャンスを創造します。
                             </p>
-                            <button type="button">MORE</button>
+<!--                             <button type="button">MORE</button> -->
+							<p style="text-align: right">read more</p>
                         </div>
                     </div>
                 </div>

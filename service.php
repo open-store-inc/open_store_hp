@@ -14,8 +14,9 @@ Template Name: service.php
     <link rel="stylesheet" href="responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/stylesheet.css" type="text/css" />
+	
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib/jquery.js"></script>
 
-    </script>
 </head>
 
 <body>
@@ -65,21 +66,19 @@ Template Name: service.php
         </div>
     </div>
 
-    <div class="consulting">
+    <div class="consulting" 　id = "1">
         <div class="container">
             <div class="consult consultx">
                 <div class="consult-me ">
                     <h3 class="">webコンサルティング <br><span >WEB CONSULTING</span></h3>
-                    <p class="">大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キ
-                        ッチンなどのリフォーム工事。 それだけに留まらず、
-                        空調設備取り付けに加えメンテナンスや上下設備設置。</p>
+                    <p class="">コンセプト設定/ブランディング戦略/CI・VI構築/CREDO設定/デザインガイドライン選定</p>
                 </div>
                 <div class="consult-img ">
                     <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container">
             <div class="consult1">
                 <div class="consult1-top ">
                     <h3>綿密なヒアリングと
@@ -129,17 +128,15 @@ Template Name: service.php
             </div>
         </div>
     </div>
-    <div class="consulting">
+    <div class="consulting" 　id = "2">
         <div class="container">
             <div class="consult">
                 <div class="consult-img ">
                     <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                 </div>
                 <div class="consult-me ">
-                    <h3>WEBサイト制作/開発 <span>WEB CONSULTING</span></h3>
-                    <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キ
-                        ッチンなどのリフォーム工事。 それだけに留まらず、
-                        空調設備取り付けに加えメンテナンスや上下設備設置。</p>
+                    <h3>WEBサービス制作/開発 <span>WEB CONSULTING</span></h3>
+                    <p>WEBサイト制作/アプリ制作/UIデザイン</p>
                 </div>
             </div>
         </div>
@@ -193,14 +190,12 @@ Template Name: service.php
             </div>
         </div>
     </div>
-    <div class="consulting">
+    <div class="consulting" 　id = "3">
         <div class="container">
             <div class="consult">
                 <div class="consult-me ">
                     <h3>WEBマーケティング/運用<span>WEB CONSULTING</span></h3>
-                    <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キ
-                        ッチンなどのリフォーム工事。 それだけに留まらず、
-                        空調設備取り付けに加えメンテナンスや上下設備設置。</p>
+                    <p>ターゲティング/戦略/インフルエンサーマーケティング/SNS広告/GDN/YDN広告/リスティング広告/DSP広告/ユーザビリティ調査/ヒューリスティック評価/</p>
                 </div>
                 <div class="consult-img ">
                     <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
@@ -257,7 +252,7 @@ Template Name: service.php
             </div>
         </div>
     </div>
-    <div class="consulting">
+    <div class="consulting" 　id = "4">
         <div class="container">
             <div class="consult">
                 <div class="consult-img ">
@@ -265,9 +260,7 @@ Template Name: service.php
                 </div>
                 <div class="consult-me ">
                     <h3>ECサイト構築/運営 <span>WEB CONSULTING</span></h3>
-                    <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キ
-                        ッチンなどのリフォーム工事。 それだけに留まらず、
-                        空調設備取り付けに加えメンテナンスや上下設備設置。</p>
+                    <p>ECサイト制作/システムカスタマイズ（shopify）/KPI設定/サイト運営代行/モデル撮影/商品撮影</p>
                 </div>
             </div>
         </div>
@@ -321,14 +314,12 @@ Template Name: service.php
             </div>
         </div>
     </div>
-    <div class="consulting">
+    <div class="consulting" 　id = "5">
         <div class="container">
             <div class="consult">
                 <div class="consult-me">
                     <h3>クリエイティブ制作 <span>WEB CONSULTING</span></h3>
-                    <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キ
-                        ッチンなどのリフォーム工事。 それだけに留まらず、
-                        空調設備取り付けに加えメンテナンスや上下設備設置。</p>
+                    <p>パンフレット・カタログ制作/ユニフォームデザイン/コンテンツ制作</p>
                 </div>
                 <div class="consult-img">
                     <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
@@ -385,7 +376,7 @@ Template Name: service.php
             </div>
         </div>
     </div>
-    <div class="consulting">
+    <div class="consulting" 　id = "6">
         <div class="container">
             <div class="consult">
                 <div class="consult-img">
@@ -393,9 +384,7 @@ Template Name: service.php
                 </div>
                 <div class="consult-me">
                     <h3>システム開発 <span>WEB CONSULTING</span></h3>
-                    <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キ
-                        ッチンなどのリフォーム工事。 それだけに留まらず、
-                        空調設備取り付けに加えメンテナンスや上下設備設置。</p>
+                    <p>社内ツール改善/システム選定/サーバー選定/脆弱性診断</p>
                 </div>
             </div>
         </div>
@@ -449,6 +438,32 @@ Template Name: service.php
             </div>
         </div>
     </div>
+	<script type="text/javascript">
+		jQuery(function(){
+			var prm = location.search;
+			
+			if(prm == "?id=1"){
+				var scroll = 650;
+			}
+			if(prm == "?id=2"){
+				var scroll = 2000;
+			}
+			if(prm == "?id=3"){
+				var scroll = 4750;
+			}
+			if(prm == "?id=4"){
+				var scroll = 3400;
+			}
+			if(prm == "?id=5"){
+				var scroll = 6100;
+			}
+			if(prm == "?id=6"){
+				var scroll = 7500;
+			}
+			jQuery(window).scrollTop(scroll);				
+			
+		});
+	</script>
     
 </body>
 <footer>
