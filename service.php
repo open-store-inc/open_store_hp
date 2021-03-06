@@ -74,7 +74,7 @@ Template Name: service.php
                     <p class="">コンセプト設定/ブランディング戦略/CI・VI構築/CREDO設定/デザインガイドライン選定</p>
                 </div>
                 <div class="consult-img ">
-                    <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/WEB-CONSULTING.png" alt="">
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@ Template Name: service.php
         <div class="container">
             <div class="consult">
                 <div class="consult-img ">
-                    <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/WEB-SERVICE-PRODUCTION.png" alt="">
                 </div>
                 <div class="consult-me ">
                     <h3>WEBサービス制作/開発 <span>WEB CONSULTING</span></h3>
@@ -186,7 +186,7 @@ Template Name: service.php
         <div class="container">
             <div class="consult">
                 <div class="consult-img ">
-                    <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/WEB-MARKETING.png" alt="">
                 </div>
                 <div class="consult-me ">
                     <h3>ECサイト構築/運営 <span>WEB CONSULTING</span></h3>
@@ -246,11 +246,11 @@ Template Name: service.php
         <div class="container">
             <div class="consult">
                 <div class="consult-me ">
-                    <h3>WEBマーケティング/運用<span>WEB CONSULTING</span></h3>
+                    <h3>WEBマーケティング/運用<span><br>WEB CONSULTING</span></h3>
                     <p>ターゲティング/戦略/インフルエンサーマーケティング/SNS広告/GDN/YDN広告/リスティング広告/DSP広告/ユーザビリティ調査/ヒューリスティック評価/</p>
                 </div>
                 <div class="consult-img ">
-                    <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/EC-SITE-CONSTRUCTION.png" alt="">
                 </div>
             </div>
         </div>
@@ -307,7 +307,7 @@ Template Name: service.php
                     <p>パンフレット・カタログ制作/ユニフォームデザイン/コンテンツ制作</p>
                 </div>
                 <div class="consult-img">
-                    <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/CREATIVE.png" alt="">
                 </div>
             </div>
         </div>
@@ -363,7 +363,7 @@ Template Name: service.php
         <div class="container">
             <div class="consult">
                 <div class="consult-img">
-                    <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/SYSTEM-DEVELOPMENT.png" alt="">
                 </div>
                 <div class="consult-me">
                     <h3>システム開発 <span>WEB CONSULTING</span></h3>
@@ -423,22 +423,22 @@ Template Name: service.php
 			var prm = location.search;
 			
 			if(prm == "?id=1"){
-				var scroll = 650;
+				var scroll = 690;
 			}
 			if(prm == "?id=2"){
-				var scroll = 2000;
+				var scroll = 2050;
 			}
 			if(prm == "?id=3"){
-				var scroll = 4750;
+				var scroll = 3320;
 			}
 			if(prm == "?id=4"){
-				var scroll = 3400;
+				var scroll = 4600;
 			}
 			if(prm == "?id=5"){
-				var scroll = 6100;
+				var scroll = 5900;
 			}
 			if(prm == "?id=6"){
-				var scroll = 7500;
+				var scroll = 7200;
 			}
 			jQuery(window).scrollTop(scroll);				
 			
