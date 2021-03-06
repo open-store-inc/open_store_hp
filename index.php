@@ -103,10 +103,11 @@
                 <div class="main1">
                 <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
-                            <p>WEBサービス制作/開発</p>
+										<a href="service/?id=2"><p>WEBサービス制作/開発</p></a>
                             <a href="service/?id=2">WEB DESIGN</a>
                         </div>
                         <div class="main1-bo">
+									<a href="service/?id=2"  style="text-decoration: none; color:black;">
                             <h3>あくまでもユーザーのためのもの。</h3>
                             <p>
                             お客様の「伝えたいコト」「やりたいコト」と<br>
@@ -115,16 +116,18 @@
                         　　</p>
 <!--                         <button type="button">MORE</button> -->
 									<p style="text-align: right">read more</p>
+									</a>
                         </div>
                     </div>
                 </div>
                 <div class="main1">
                 <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
-                            <p>ECサイト構築/運営</p>
+										<a href="service/?id=3"><p>ECサイト構築/運営</p></a>
                             <a href="service/?id=3">WEBOPERATION</a>
                         </div>
                         <div class="main1-bo">
+										<a href="service/?id=3"  style="text-decoration: none; color:black;">
                             <h3>あなたのお店を、全ての場所に</h3>
                             <p>
                                 お客様の商品やオリジナルブランドを<br>独自のオンラインショップを通じて<br>
@@ -132,6 +135,7 @@
                             </p>
 <!--                             <button type="button">MORE</button> -->
 										<p style="text-align: right">read more</p>
+										</a>
                         </div>
                     </div>
                 </div>
@@ -141,10 +145,11 @@
                 <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
 
-                            <p>WEBマーケティング/運用</p>
+										<a href="service/?id=4"><p>WEBマーケティング/運用</p></a>
                             <a href="service/?id=4">WEBCONSULTING</a>
                         </div>
                         <div class="main1-bo">
+									<a href="service/?id=4"  style="text-decoration: none; color:black;">
                             <h3>「だれに」「どこで」「どう伝えるか」</h3>
                             <p>
                                 デジタル広告の重要性が非常に高まっている今、<br>
@@ -152,17 +157,19 @@
                                 仕組みづくりを提供します。
                             </p>
 <!--                             <button type="button">MORE</button> -->
-							<p style="text-align: right">read more</p>
+										<p style="text-align: right">read more</p>
+									</a>
                         </div>
                     </div>
                 </div>
                 <div class="main1">
                 <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
-                            <p>クリエイティブ制作</p>
+										<a href="service/?id=5"><p>クリエイティブ制作</p></a>
                             <a href="service/?id=5">WEB DESIGN</a>
                         </div>
                         <div class="main1-bo">
+										<a href="service/?id=5" style="text-decoration: none; color:black;">
                             <h3>創造がビジネスを加速させる</h3>
                             <p>
                                 ユーザーのココロと行動を変化させ,<br>お客様のブランドが
@@ -170,7 +177,8 @@
                                 "伝わる"クリエイティブを制作します。
                             </p>
 <!--                             <button type="button">MORE</button> -->
-							<p style="text-align: right">read more</p>
+										<p style="text-align: right">read more</p>
+									</a>
                         </div>
                     </div>
                 </div>
@@ -178,10 +186,11 @@
                 <div class="main1-me scrollanime slide-left">
                         <div class="main1-to">
 
-                            <p>システム開発</p>
+										<a href="service/?id=6"><p>システム開発</p></a>
                             <a href="service/?id=6">WEBOPERATION</a>
                         </div>
                         <div class="main1-bo">
+										<a href="service/?id=6"  style="text-decoration: none; color:black;">
                             <h3>「効率」から「創造」へ</h3>
                             <p>
                                 顧客管理、営業管理システムといった<br>
@@ -189,7 +198,8 @@
                                 ビジネスチャンスを創造します。
                             </p>
 <!--                             <button type="button">MORE</button> -->
-							<p style="text-align: right">read more</p>
+										<p style="text-align: right">read more</p>
+									</a>
                         </div>
                     </div>
                 </div>
