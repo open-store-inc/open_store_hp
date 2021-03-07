@@ -344,8 +344,8 @@
         <div class="container">
             <div class="past">
                 <div class="past-item">
-                    <div class="past-main scrollanime slide-left">
-                        <div class="past-img">
+                    <!-- <div class="past-main scrollanime slide-left"> -->
+                        <!-- <div class="past-img">
                             <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
                         <div class="past-me">
@@ -388,7 +388,29 @@
                                 <a href="#">detail</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <?php query_posts( 'category_name=PAST_RECORD&posts_per_page=3' ); ?>
+                        <?php if(have_posts()): while(have_posts()): the_post(); ?>
+                            <!--カテゴリがPAST RECORDの一覧表示-->
+                            <?php //get_template_part('loop-content'); ?>
+                            <div class="past-main scrollanime slide-left">
+                                <div class="past-img">
+                                    <?php if( has_post_thumbnail() ): ?>
+                                        <?php the_post_thumbnail('full'); ?>
+                                    <?php endif; ?>
+                                </div>
+                                <div class="past-me">
+                                    <p>
+                                        <?php the_excerpt(); ?>
+                                    </p>
+                                </div>
+                                <div class="past-buttom">
+                                    <div class="past-bu">
+                                        <a href="#">detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endwhile; endif; ?><!--ループ終了-->
                 </div>
             </div>
 
