@@ -484,7 +484,7 @@
         <div class="container">
             <div class="past">
                 <div class="past-item">
-                    <div class="past-main scrollanime slide-left">
+                    <!-- <div class="past-main scrollanime slide-left">
                         <div class="past-img">
                             <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
@@ -515,7 +515,22 @@
                                 様々なご要望にお応えできるのが私たちの強みです</p>
                         </div>
 
-                    </div>
+                    </div> -->
+                    <?php query_posts( 'category_name=WORK&posts_per_page=3' ); ?>
+                        <?php if(have_posts()): while(have_posts()): the_post(); ?>
+                            <div class="past-main scrollanime slide-left">
+                                <div class="past-img">
+                                    <?php if( has_post_thumbnail() ): ?>
+                                        <?php the_post_thumbnail('full'); ?>
+                                    <?php endif; ?>
+                                </div>
+                                <div class="past-me">
+                                    <p>
+                                        <?php the_excerpt(); ?>
+                                    </p>
+                                </div>
+                            </div>
+                        <?php endwhile; endif; ?>
                 </div>
             </div>
         </div>
