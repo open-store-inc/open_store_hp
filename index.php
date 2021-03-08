@@ -344,8 +344,8 @@
         <div class="container">
             <div class="past">
                 <div class="past-item">
-                    <div class="past-main scrollanime slide-left">
-                        <div class="past-img">
+                    <!-- <div class="past-main scrollanime slide-left"> -->
+                        <!-- <div class="past-img">
                             <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
                         <div class="past-me">
@@ -388,7 +388,29 @@
                                 <a href="#">detail</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <?php query_posts( 'category_name=PAST_RECORD&posts_per_page=3' ); ?>
+                        <?php if(have_posts()): while(have_posts()): the_post(); ?>
+                            <!--カテゴリがPAST RECORDの一覧表示-->
+                            <?php //get_template_part('loop-content'); ?>
+                            <div class="past-main scrollanime slide-left">
+                                <div class="past-img">
+                                    <?php if( has_post_thumbnail() ): ?>
+                                        <?php the_post_thumbnail('full'); ?>
+                                    <?php endif; ?>
+                                </div>
+                                <div class="past-me">
+                                    <p>
+                                        <?php the_excerpt(); ?>
+                                    </p>
+                                </div>
+                                <div class="past-buttom">
+                                    <div class="past-bu">
+                                        <a href="#">detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endwhile; endif; ?>
                 </div>
             </div>
 
@@ -400,7 +422,7 @@
                 <p>NEWS</p>
             </div>
             <div class="container">
-                <div class="manege-me scrollanime slide-left">
+                <!-- <div class="manege-me scrollanime slide-left">
                     <div class="news-img">
                         <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                     </div>
@@ -432,7 +454,25 @@
                             それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
                             様々なご要望にお応えできるのが私たちの強みです</p>
                     </div>
-                </div>
+                </div> -->
+                <?php query_posts( 'category_name=NEWS&posts_per_page=3' ); ?>
+                    <?php if(have_posts()): while(have_posts()): the_post(); ?>
+                        <div class="manege-me scrollanime slide-left">
+                            <div class="news-img">
+                                <?php if( has_post_thumbnail() ): ?>
+                                    <?php the_post_thumbnail('full'); ?>
+                                <?php endif; ?>
+                            </div>
+                            <div class="news-me">
+                                <h3>
+                                    <?php the_title(); ?>
+                                </h3>
+                                <p>
+                                    <?php the_excerpt(); ?>
+                                </p>
+                            </div>
+                        </div>
+                    <?php endwhile; endif; ?>
             </div>
 
         </div>
@@ -444,7 +484,7 @@
         <div class="container">
             <div class="past">
                 <div class="past-item">
-                    <div class="past-main scrollanime slide-left">
+                    <!-- <div class="past-main scrollanime slide-left">
                         <div class="past-img">
                             <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
                         </div>
@@ -475,7 +515,22 @@
                                 様々なご要望にお応えできるのが私たちの強みです</p>
                         </div>
 
-                    </div>
+                    </div> -->
+                    <?php query_posts( 'category_name=WORK&posts_per_page=3' ); ?>
+                        <?php if(have_posts()): while(have_posts()): the_post(); ?>
+                            <div class="past-main scrollanime slide-left">
+                                <div class="past-img">
+                                    <?php if( has_post_thumbnail() ): ?>
+                                        <?php the_post_thumbnail('full'); ?>
+                                    <?php endif; ?>
+                                </div>
+                                <div class="past-me">
+                                    <p>
+                                        <?php the_excerpt(); ?>
+                                    </p>
+                                </div>
+                            </div>
+                        <?php endwhile; endif; ?>
                 </div>
             </div>
         </div>
