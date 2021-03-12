@@ -2,31 +2,8 @@
 <html>
 
 <head>
-    <title>株式会社 OPEN STORE</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" type="text/css" />
-
-    <!-- CSSを読み込んだ後にjsを読み込むようにしましょう -->
-    <!-- <script src="script.js"></script> -->
-    <!-- デフォルトのjqを削除 -->
-    <?php
-    wp_deregister_script('jquery');
-    wp_head();
-    ?>
-
-    <!-- jquery読み込み -->
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib/jquery.js"></script>
-
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-
-    </script>
+<?php get_header(); ?> 
 </head>
-
 <body>
     <div class="header-color">
         <p></p>
@@ -59,7 +36,6 @@
         <div class="top">
             <div class="top-logo">
                 <h3>あなたの価値を、<span>全ての場所に</span></h3>
-                <!-- 　　　<p>いつでもどこでもすべての場所に</p> -->
             </div>
             <div class="top-me">
                 <p>- Branding your value everywhere -
@@ -90,10 +66,7 @@
                             <p>
                             綿密なヒアリングをもとに、Webサービスの<br>問題発見や解決策の提案、戦略立案などを中心に、<br>
                             お客様が最適なWebサービスを活用できるよう<br>サポートします。
-                            <!-- 　お客様の抱えている悩みをお聞かせていただき、<br>
-                            　最適な解決策をご案内します。 -->
                         　　</p>
-<!--                         <button type="button">MORE</button> -->
 									<p style="text-align: right">read more</p>
 								</a> 
 								</div>
@@ -114,7 +87,6 @@
                             ユーザーの「求めているコト」をWEBサービスを<br>
                             用いて様々なカタチで実現します。
                         　　</p>
-<!--                         <button type="button">MORE</button> -->
 									<p style="text-align: right">read more</p>
 									</a>
                         </div>
@@ -133,7 +105,6 @@
                                 お客様の商品やオリジナルブランドを<br>独自のオンラインショップを通じて<br>
                                 誰にでもどこにでもお届けすることができます。
                             </p>
-<!--                             <button type="button">MORE</button> -->
 										<p style="text-align: right">read more</p>
 										</a>
                         </div>
@@ -156,7 +127,6 @@
                                 インターネット上でユーザーを集める為の<br>
                                 仕組みづくりを提供します。
                             </p>
-<!--                             <button type="button">MORE</button> -->
 										<p style="text-align: right">read more</p>
 									</a>
                         </div>
@@ -176,7 +146,6 @@
                                 人々の記憶に深く刻まれるような<br>
                                 "伝わる"クリエイティブを制作します。
                             </p>
-<!--                             <button type="button">MORE</button> -->
 										<p style="text-align: right">read more</p>
 									</a>
                         </div>
@@ -197,7 +166,6 @@
                                 ITの導入により業務を効率化し、新たな<br>
                                 ビジネスチャンスを創造します。
                             </p>
-<!--                             <button type="button">MORE</button> -->
 										<p style="text-align: right">read more</p>
 									</a>
                         </div>
@@ -266,8 +234,6 @@
                     <div class="workflow1-item">
                         <div class="workflow1-item1 scrollanime slide-left">
                             <div class="workimg">
-                                <!-- <img src="<?php echo get_template_directory_uri(); ?>/image/1.png" -->
-                                <!-- フォルダ名はimgでは？ -->
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/1.png" alt="">
                             </div>
                             <p>STEP 01
@@ -344,55 +310,9 @@
         <div class="container">
             <div class="past">
                 <div class="past-item">
-                    <!-- <div class="past-main scrollanime slide-left"> -->
-                        <!-- <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                        </div>
-                        <div class="past-me">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
-                        </div>
-                        <div class="past-buttom">
-                            <div class="past-bu">
-                                <a href="#">detail</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="past-main scrollanime slide-left">
-                        <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                        </div>
-                        <div class="past-me">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
-                        </div>
-                        <div class="past-buttom">
-                            <div class="past-bu">
-                                <a href="#">detail</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="past-main scrollanime slide-left">
-                        <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                        </div>
-                        <div class="past-me">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
-                        </div>
-                        <div class="past-buttom">
-                            <div class="past-bu">
-                                <a href="#">detail</a>
-                            </div>
-                        </div>
-                    </div> -->
                     <?php query_posts( 'category_name=PAST_RECORD&posts_per_page=3' ); ?>
                         <?php if(have_posts()): while(have_posts()): the_post(); ?>
                             <!--カテゴリがPAST RECORDの一覧表示-->
-                            <?php //get_template_part('loop-content'); ?>
                             <div class="past-main scrollanime slide-left">
                                 <div class="past-img">
                                     <?php if( has_post_thumbnail() ): ?>
@@ -422,39 +342,6 @@
                 <p>NEWS</p>
             </div>
             <div class="container">
-                <!-- <div class="manege-me scrollanime slide-left">
-                    <div class="news-img">
-                        <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                    </div>
-                    <div class="news-me">
-                        <h3>biebviueqblcrqeuirlwqo</h3>
-                        <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                            それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                            様々なご要望にお応えできるのが私たちの強みです</p>
-                    </div>
-                </div>
-                <div class="manege-me scrollanime slide-left">
-                    <div class="news-img">
-                        <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                    </div>
-                    <div class="news-me">
-                        <h3>biebviueqblcrqeuirlwqo</h3>
-                        <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                            それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                            様々なご要望にお応えできるのが私たちの強みです</p>
-                    </div>
-                </div>
-                <div class="manege-me scrollanime slide-left">
-                    <div class="news-img">
-                        <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                    </div>
-                    <div class="news-me">
-                        <h3>biebviueqblcrqeuirlwqo</h3>
-                        <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                            それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                            様々なご要望にお応えできるのが私たちの強みです</p>
-                    </div>
-                </div> -->
                 <?php query_posts( 'category_name=NEWS&posts_per_page=3' ); ?>
                     <?php if(have_posts()): while(have_posts()): the_post(); ?>
                         <div class="manege-me scrollanime slide-left">
@@ -484,38 +371,6 @@
         <div class="container">
             <div class="past">
                 <div class="past-item">
-                    <!-- <div class="past-main scrollanime slide-left">
-                        <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                        </div>
-                        <div class="past-me">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
-                        </div>
-                    </div>
-                    <div class="past-main scrollanime slide-left">
-                        <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                        </div>
-                        <div class="past-me">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
-                        </div>
-
-                    </div>
-                    <div class="past-main scrollanime slide-left">
-                        <div class="past-img">
-                            <img src="https://i.pinimg.com/originals/37/a6/29/37a629b6faca99b751ce0792b8cf6459.jpg" alt="">
-                        </div>
-                        <div class="past-me">
-                            <p>大規模工場の配管工事から一般住宅やオフィスなどのトイレ・キッチンなどのリフォーム工事。
-                                それだけに留まらず、空調設備取り付けに加えメンテナンスや上下設備設置。そして上水道配水管布設工事など
-                                様々なご要望にお応えできるのが私たちの強みです</p>
-                        </div>
-
-                    </div> -->
                     <?php query_posts( 'category_name=WORK&posts_per_page=3' ); ?>
                         <?php if(have_posts()): while(have_posts()): the_post(); ?>
                             <div class="past-main scrollanime slide-left">
@@ -535,8 +390,6 @@
             </div>
         </div>
     </div>
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="script.js"></script> -->
 </body>
 <footer>
     <div class="footer">
