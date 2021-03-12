@@ -550,6 +550,7 @@ body {
 
 .past-img img {
     width: 100%;
+    height: 100%;
 }
 
 .past-me {
@@ -614,7 +615,10 @@ body {
     margin-bottom: 50px;
 }
 
-.news-img img {}
+.news-img img {
+    width: 100%;
+    height: 100%;
+}
 
 .news-me {
     width: 60%;
