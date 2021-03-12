@@ -9,54 +9,12 @@ Template Name: service.php
 
 <head>
     <title>株式会社 OPEN STORE</title>
-    
-    <!-- <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <?php get_header(); ?> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/stylesheet.css" type="text/css" />
-	
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/lib/jquery.js"></script>
-    <script type="text/javascript">
-    $(function() {
-
-    
-        // strategy
-        jQuery('.strategy' ).mouseover(function() {
-            jQuery('#strategy').slideDown(300);
-        });
-        jQuery('.strategy').mouseout(function() {
-            jQuery('#strategy').slideUp(300);
-        });
-
-        //innovation
-        jQuery('.innovation' ).mouseover(function() {
-            jQuery('#innovation').slideDown(300);
-        });
-        jQuery('.innovation').mouseout(function() {
-            jQuery('#innovation').slideUp(300);
-        });
-
-        //consept
-        jQuery('.consept' ).mouseover(function() {
-            jQuery('#consept').slideDown(300);
-        });
-        jQuery('.consept').mouseout(function() {
-            jQuery('#consept').slideUp(300);
-        });
-
-        //branding
-        jQuery('.branding' ).mouseover(function() {
-            jQuery('#branding').slideDown(300);
-        });
-        jQuery('.branding').mouseout(function() {
-            jQuery('#branding').slideUp(300);
-        });
-
-    });
-    </script>
 </head>
 
 <body>
+
     <div class="header-color">
         <p></p>
     </div>
@@ -103,7 +61,7 @@ Template Name: service.php
         </div>
     </div>
 
-    <div class="consulting" 　id = "1">
+    <div class="consulting" id="id1">
         <div class="container">
             <div class="consult consultx">
                 <div class="consult-me ">
@@ -145,6 +103,46 @@ Template Name: service.php
                         
                         </p>
                     </div>
+
+
+                    <script type="text/javascript">
+                        $(function() {
+
+                        
+                            // strategy
+                            jQuery('.strategy' ).mouseover(function() {
+                                jQuery('#strategy').slideDown(300);
+                            });
+                            jQuery('.strategy').mouseout(function() {
+                                jQuery('#strategy').slideUp(300);
+                            });
+
+                            //innovation
+                            jQuery('.innovation' ).mouseover(function() {
+                                jQuery('#innovation').slideDown(300);
+                            });
+                            jQuery('.innovation').mouseout(function() {
+                                jQuery('#innovation').slideUp(300);
+                            });
+
+                            //consept
+                            jQuery('.consept' ).mouseover(function() {
+                                jQuery('#consept').slideDown(300);
+                            });
+                            jQuery('.consept').mouseout(function() {
+                                jQuery('#consept').slideUp(300);
+                            });
+
+                            //branding
+                            jQuery('.branding' ).mouseover(function() {
+                                jQuery('#branding').slideDown(300);
+                            });
+                            jQuery('.branding').mouseout(function() {
+                                jQuery('#branding').slideUp(300);
+                            });
+
+                        });
+                    </script>
 
                     </br>
                     <p class="" style="font-size:1.1rem; font-weight: bold;">webコンサルタントとは</p>
@@ -214,7 +212,7 @@ Template Name: service.php
 
 
 
-    <div class="consulting" 　id = "2">
+    <div class="consulting" id="id2">
         <div class="container">
             <div class="consult">
                 <div class="consult-img ">
@@ -380,7 +378,7 @@ Template Name: service.php
             </div>
         </div>
     </div>
-    <div class="consulting" 　id = "3">
+    <div class="consulting" id="id3">
         <div class="container">
             <div class="consult">
                 <div class="consult-img ">
@@ -388,7 +386,117 @@ Template Name: service.php
                 </div>
                 <div class="consult-me ">
                     <h3>ECサイト構築/運営 <span>WEB CONSULTING</span></h3>
-                    <p>ECサイト制作/システムカスタマイズ（shopify）/KPI設定/サイト運営代行/モデル撮影/商品撮影</p>
+                    <p><a class="ec_site">ECサイト制作</a>/<a class="system_custom">システムカスタマイズ</a>/<a class="kpi_setting">KPI設定</a>/<a class="site_operation">サイト運営代行</a>/<a class="model_photograph">モデル撮影</a>/<a class="product_photograph">商品撮影</a></p>
+
+                    <div class = "subbox" id = "ec_site" style="display:none; background-color:#1abc9c;">
+                        <h3>ECサイト制作</h3>
+                        <p>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "system_custom" style="display:none; background-color:#1abc9c;">
+                        <h3>システムカスタマイズ</h3>
+                        <p>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "kpi_setting" style="display:none; background-color:#1abc9c;">
+                        <h3>KPI設定</h3>
+                        <p>
+                        KPIとは、Key Performance Indicatorの略称で、「重要業績評価指数」と訳されています。</br>
+                        KPIは、最終目標を達成するために必要な要因を幾つか洗い出し、</br>
+                        目標達成に向かって順調に進んでいるかを点検するために設ける中間指標で、</br>
+                        具体的な数値で表したものです。</br>
+                        またKPIはただ設定するだけではなく、<br>
+                        PDCA（Plan:計画、Do：実行、Check：評価、Action：改善）サイクルで行うことが必要です。</br>
+                        そしてこれを1回で終わらせないで何回も続けて行うことが重要ですので、一連の流れが定着するよう支援します。
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "site_operation" style="display:none; background-color:#1abc9c;">
+                        <h3>サイト運営代行</h3>
+                        <p>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "model_photograph" style="display:none; background-color:#1abc9c;">
+                        <h3>モデル撮影</h3>
+                        <p>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "product_photograph" style="display:none; background-color:#1abc9c;">
+                        <h3>商品撮影</h3>
+                        <p>
+                        </p>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function() {
+                        
+                            // ec_site
+                            jQuery('.ec_site' ).mouseover(function() {
+                                jQuery('#ec_site').slideDown(300);
+                            });
+                            jQuery('.ec_site').mouseout(function() {
+                                jQuery('#ec_site').slideUp(300);
+                            });
+
+                            //system_custom
+                            jQuery('.system_custom' ).mouseover(function() {
+                                jQuery('#system_custom').slideDown(300);
+                            });
+                            jQuery('.system_custom').mouseout(function() {
+                                jQuery('#system_custom').slideUp(300);
+                            });
+
+                            //kpi_setting
+                            jQuery('.kpi_setting' ).mouseover(function() {
+                                jQuery('#kpi_setting').slideDown(300);
+                            });
+                            jQuery('.kpi_setting').mouseout(function() {
+                                jQuery('#kpi_setting').slideUp(300);
+                            });
+
+                            //site_operation
+                            jQuery('.site_operation' ).mouseover(function() {
+                                jQuery('#site_operation').slideDown(300);
+                            });
+                            jQuery('.site_operation').mouseout(function() {
+                                jQuery('#site_operation').slideUp(300);
+                            });
+                            
+                            //model_photograph
+                            jQuery('.model_photograph' ).mouseover(function() {
+                                jQuery('#model_photograph').slideDown(300);
+                            });
+                            jQuery('.model_photograph').mouseout(function() {
+                                jQuery('#model_photograph').slideUp(300);
+                            });
+
+                            //product_photograph
+                            jQuery('.product_photograph' ).mouseover(function() {
+                                jQuery('#product_photograph').slideDown(300);
+                            });
+                            jQuery('.product_photograph').mouseout(function() {
+                                jQuery('#product_photograph').slideUp(300);
+                            });
+
+                        });
+                    </script>
+
+
+                    </br>
+                    <p class="" style="font-size:1.1rem; font-weight: bold;">ECサイト構築/運営とは</p>
+                    </br>
+                    <p class="" style="font-size:0.9rem;">
+                    実店舗を持っているがWEBでも販売したい、すでにWEBで商品を売っているが自社ショップを一新したいなど様々なご要望を伺い、</br>
+                    お客様にあった最適なECサイト構築プランをご提案します。</br>
+                    国外EC・国内ECの構築、運営代行をワンストップでサポートしています。</br>
+                    ECサイト運営に必要な構築からブランディング、SEO対策、運用、分析改善、構築・カスタマイズ、オンラインEC決済、販促、マーケティング、SNS運用など幅広く対応しています。</br>
+                    お客様の商品やオリジナルブランドを独自のオンラインショップを通じて日本中、世界中のユーザーに届けます</br>
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -397,9 +505,8 @@ Template Name: service.php
                 <div class="consult1-top ">
                     <h3>あなたのお店を、全ての場所に</h3>
                 </div>
-                <div class="consult1-me ">
-                    <p>お客様の商品やオリジナルブランドを
-                        独自のオンラインショップを通じて
+                <div class="consult1-me " style="text-align:center;">
+                    <p>お客様の商品やオリジナルブランドを独自のオンラインショップを通じて</br>
                         <span>誰にでもどこにでもお届けすることができます。</span>
                     </p>
                 </div>
@@ -440,12 +547,200 @@ Template Name: service.php
             </div>
         </div>
     </div>
-    <div class="consulting" 　id = "4">
+    <div class="consulting" id="id4">
         <div class="container">
             <div class="consult">
                 <div class="consult-me ">
                     <h3>WEBマーケティング/運用<span><br>WEB CONSULTING</span></h3>
-                    <p>ターゲティング/戦略/インフルエンサーマーケティング/SNS広告/GDN/YDN広告/リスティング広告/DSP広告/ユーザビリティ調査/ヒューリスティック評価/</p>
+                    <p>
+                    <a class="targeting">ターゲティング戦略</a>
+                    /
+                    <a class="influencer_marketing">インフルエンサーマーケティング</a>
+                    /
+                    <a class="sns_advertising">SNS広告</a>
+                    /
+                    <a class="gdn_ydn_advertising">GDN・YDN広告</a>
+                    /
+                    <a class="listing_advertising">リスティング広告</a>
+                    /
+                    <a class="dsp_advertising">DSP広告</a>
+                    /
+                    <a class="ssability_survey">ユーザビリティ調査</a>
+                    /
+                    <a class="heuristic_evaluation">ヒューリスティック評価</a>
+                    </p>
+
+                    <div class = "subbox" id = "targeting" style="display:none; background-color:#3498db;">
+                        <h3>ターゲティング戦略</h3>
+                        <p>
+                        6R</br>
+                        &nbsp;&nbsp;・有効な市場規模</br>
+                        &nbsp;&nbsp;・競合状況</br>
+                        &nbsp;&nbsp;・成長性</br>
+                        &nbsp;&nbsp;・波及効果</br>
+                        &nbsp;&nbsp;・到達可能性</br>
+                        &nbsp;&nbsp;・測定可能性</br>
+                        を用いて、STP分析(セグメンテーション、ターゲティング、ポジショニング)をします。</br>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "influencer_marketing" style="display:none; background-color:#3498db;">
+                        <h3>インフルエンサーマーケティング</h3>
+                        <p>
+                        主にSNS(Instagram、Twitter、Facebook等)で大きな影響力をもつ</br>
+                        インフルエンサーにブランドの製品やサービスを紹介してもらい、</br>
+                        消費者の態度変容や行動変容を促すコミュニケーション型マーケティング手法になります。</br>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "sns_advertising" style="display:none; background-color:#3498db;">
+                        <h3>SNS広告</h3>
+                        <p>
+                        SNS広告とはSNS(Instagram、Twitter、Facebook等)を露出媒体とした広告です。</br>
+                        Web上での集客や認知拡大が売上に直結する今、</br>
+                        セグメントやターゲティングが細かく設定でき、</br>
+                        より多くの潜在顧客にリーチできるSNS広告は必須となります。</br>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "gdn_ydn_advertising" style="display:none; background-color:#3498db;">
+                        <h3>GDN・YDN広告</h3>
+                        <p>
+                        GDN(Googleディスプレイネットワーク)</br>
+                        YDN(Yahooディスプレイネットワーク)</br>
+                        上記を用いたディスプレイ広告(サイト閲覧時に画像・動画形式で広告が表示される広告)になります。</br>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "listing_advertising" style="display:none; background-color:#3498db;">
+                        <h3>リスティング広告</h3>
+                        <p>
+                        リスティング広告とは、検索エンジン(Google、Yahoo!)の検索結果に連動して表示される検索連動型広告です。</br>
+                        特定のキーワードに対して広告を表示させることができ、</br>
+                        そのキーワードをユーザーが検索している関心が高いときに広告が表示されるため、</br>
+                        コンバージョン率が高くなりやすいのが特徴です。</br>
+                        </p>
+                    </div>
+
+
+                    <div class = "subbox" id = "dsp_advertising" style="display:none; background-color:#3498db;">
+                        <h3>DSP広告</h3>
+                        <p>
+                        DSP広告は、DSP(広告主側)、SSP(媒体側)それぞれが持つユーザーの行動履歴などの膨大なデータをもとに、</br>
+                        自動的に広告の最適化と費用対効果を上げる仕組みであるため、</br>
+                        面(とにかく幅広い層)ではなく人(ピンポイント)にアプローチできるのが特徴です。</br>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "ssability_survey" style="display:none; background-color:#3498db;">
+                        <h3>ユーザビリティ調査</h3>
+                        <p>
+                        ユーザビリティ調査とは、製品やWEBサイト、スマートフォンのアプリなどの使い勝手の良さを評価する調査です。</br>
+                        競合とのサービス比較やサイト・アプリリニューアルの際の課題の洗い出しや方向性の指針を明確にすることが可能になります。</br>
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "heuristic_evaluation" style="display:none; background-color:#3498db;">
+                        <h3>ヒューリスティック評価</h3>
+                        <p>
+                        ヒューリスティック評価とは、10の経験則</br>
+                        &nbsp;&nbsp;・システムの状態の把握</br>
+                        &nbsp;&nbsp;・利用環境に適合したシステムの作成</br>
+                        &nbsp;&nbsp;・ユーザーに操作の主導権と自由度の付与</br>
+                        &nbsp;&nbsp;・一貫性を保つ</br>
+                        &nbsp;&nbsp;・エラーの防止</br>
+                        &nbsp;&nbsp;・シンプルなデザイン</br>
+                        &nbsp;&nbsp;・柔軟性と効率性</br>
+                        &nbsp;&nbsp;・最小限</br>
+                        &nbsp;&nbsp;・サポート</br>
+                        &nbsp;&nbsp;・ヘルプ</br>
+                        に基づいてユーザビリティを評価し、 UI 上の問題を発見できます。</br>
+                        </p>
+                    </div>
+
+
+
+                    <script type="text/javascript">
+                        $(function() {
+                        
+                            // targeting
+                            jQuery('.targeting' ).mouseover(function() {
+                                jQuery('#targeting').slideDown(300);
+                            });
+                            jQuery('.targeting').mouseout(function() {
+                                jQuery('#targeting').slideUp(300);
+                            });
+
+                            //influencer_marketing
+                            jQuery('.influencer_marketing' ).mouseover(function() {
+                                jQuery('#influencer_marketing').slideDown(300);
+                            });
+                            jQuery('.influencer_marketing').mouseout(function() {
+                                jQuery('#influencer_marketing').slideUp(300);
+                            });
+
+                            //sns_advertising
+                            jQuery('.sns_advertising' ).mouseover(function() {
+                                jQuery('#sns_advertising').slideDown(300);
+                            });
+                            jQuery('.sns_advertising').mouseout(function() {
+                                jQuery('#sns_advertising').slideUp(300);
+                            });
+
+                            //gdn_ydn_advertising
+                            jQuery('.gdn_ydn_advertising' ).mouseover(function() {
+                                jQuery('#gdn_ydn_advertising').slideDown(300);
+                            });
+                            jQuery('.gdn_ydn_advertising').mouseout(function() {
+                                jQuery('#gdn_ydn_advertising').slideUp(300);
+                            });
+                            
+                            //listing_advertising
+                            jQuery('.listing_advertising' ).mouseover(function() {
+                                jQuery('#listing_advertising').slideDown(300);
+                            });
+                            jQuery('.listing_advertising').mouseout(function() {
+                                jQuery('#listing_advertising').slideUp(300);
+                            });
+
+                            //dsp_advertising
+                            jQuery('.dsp_advertising' ).mouseover(function() {
+                                jQuery('#dsp_advertising').slideDown(300);
+                            });
+                            jQuery('.dsp_advertising').mouseout(function() {
+                                jQuery('#dsp_advertising').slideUp(300);
+                            });
+
+                            //ssability_survey
+                            jQuery('.ssability_survey' ).mouseover(function() {
+                                jQuery('#ssability_survey').slideDown(300);
+                            });
+                            jQuery('.ssability_survey').mouseout(function() {
+                                jQuery('#ssability_survey').slideUp(300);
+                            });
+
+                            //heuristic_evaluation
+                            jQuery('.heuristic_evaluation' ).mouseover(function() {
+                                jQuery('#heuristic_evaluation').slideDown(300);
+                            });
+                            jQuery('.heuristic_evaluation').mouseout(function() {
+                                jQuery('#heuristic_evaluation').slideUp(300);
+                            });
+                        });
+                    </script>
+
+                    </br>
+                    <p class="" style="font-size:1.1rem; font-weight: bold;">WEBマーケティング/運用とは</p>
+                    </br>
+                    <p class="" style="font-size:0.9rem;">
+                    デジタル領域のマーケティングを中心に、データ解析と効果計測に基づく実践的マーケティングの立案から実施・コンサルティングまで柔軟に対応いたします。</br>
+                    また、ブランド構築やインフルエンサー・メディア・広告の運用など、幅広い領域のソリューションでお客様の事業を一貫してサポートいたします。</br>
+                    Webサイト運営に不可欠な各種広告の運用やデータ解析を通じてマーケティング活動を支援。</br>
+                    また販売パートナー開拓を通じた集客・販売活動支援など幅広くお手伝いしています
+                    </p>
+
+
+
                 </div>
                 <div class="consult-img ">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/EC-SITE-CONSTRUCTION.png" alt="">
@@ -457,8 +752,8 @@ Template Name: service.php
                 <div class="consult1-top ">
                     <h3>「だれに」「どこで」「どう伝えるか」</h3>
                 </div>
-                <div class="consult1-me ">
-                    <p><span>デジタル広告の重要性が非常に高まっている今。</span>インターネット上でユーザーを集める為の仕組みづくりを提供します。</p>
+                <div class="consult1-me " style="text-align:center;">
+                    <p><span>デジタル広告の重要性が非常に高まっている今</br></span>インターネット上でユーザーを集める為の仕組みづくりを提供します。</p>
                 </div>
             </div>
             <div class="consult2">
@@ -497,12 +792,86 @@ Template Name: service.php
             </div>
         </div>
     </div>
-    <div class="consulting" 　id = "5">
+    <div class="consulting" id="id5">
         <div class="container">
             <div class="consult">
                 <div class="consult-me">
                     <h3>クリエイティブ制作 <span>WEB CONSULTING</span></h3>
-                    <p>パンフレット・カタログ制作/ユニフォームデザイン/コンテンツ制作</p>
+                    <p>
+                    <a class="pamphlet">パンフレット・カタログ制作</a>
+                    /
+                    <a class="uniform">ユニフォームデザイン
+                    /
+                    <a class="content_creation">コンテンツ制作</a>
+                    </p>
+
+                    <div class = "subbox" id = "pamphlet" style="display:none; background-color:#9b59b6;">
+                        <h3>パンフレット・カタログ制作</h3>
+                        <p>
+                        「営業支援」「新商品紹介」「サービス紹介」「総合カタログ」「ブランディング」といった目的や、</br>
+                        「BtoB」「BtoC」「商談ツール」「店頭での陳列」「イベント・展示会での配布」「DM」など、</br>
+                        それぞれの用途を明確にし、作成します。
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "uniform" style="display:none; background-color:#9b59b6;">
+                        <h3>ユニフォームデザイン</h3>
+                        <p>
+                        ユニフォームは着ている事で私達見る側に対して安心感を与える効果があり、</br>
+                        同じ服を着用する事で連帯意識を持ち仕事の精度が上がる、</br>
+                        仕事の機能性を上げるなどの役割も果たす、</br>
+                        そのようなデザインを提案します。
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "content_creation" style="display:none; background-color:#9b59b6;">
+                        <h3>コンテンツ制作</h3>
+                        <p>
+                        音声と映像の組み合わせによって受ける印象というのが大きく変化し、同じ映像だとしても同時に流す音声によって動画コンテンツの印象が変わります。</br>
+                        このように、音声と映像をセットで用いられる動画コンテンツならではの強みがあり、印象付けを強めたり、世界観を表現したりユーザーに与える印象をコントロールしたりといった施策が展開できます。
+                        </p>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function() {
+                        
+                            // pamphlet
+                            jQuery('.pamphlet' ).mouseover(function() {
+                                jQuery('#pamphlet').slideDown(300);
+                            });
+                            jQuery('.pamphlet').mouseout(function() {
+                                jQuery('#pamphlet').slideUp(300);
+                            });
+
+                            //uniform
+                            jQuery('.uniform' ).mouseover(function() {
+                                jQuery('#uniform').slideDown(300);
+                            });
+                            jQuery('.uniform').mouseout(function() {
+                                jQuery('#uniform').slideUp(300);
+                            });
+
+                            //content_creation
+                            jQuery('.content_creation' ).mouseover(function() {
+                                jQuery('#content_creation').slideDown(300);
+                            });
+                            jQuery('.content_creation').mouseout(function() {
+                                jQuery('#content_creation').slideUp(300);
+                            });
+                        });
+                    </script>
+
+                    </br>
+                    <p class="" style="font-size:1.1rem; font-weight: bold;">クリエイティブ制作とは</p>
+                    </br>
+                    <p class="" style="font-size:0.9rem;">
+                    ブランドのネーミングからブランドスローガンやステートメントのコピーライティング、ブランドイメージにふさわしい商品やモデルの撮影、ブランドサイトやランディングページのWebデザインなど、ブランドを具現化するために必要なクリエイティブを幅広く提供しています。</br>
+                    たったひとつのロゴやパッケージだとしても、ブランドのビジョンや文脈にふさわしいあり方を目指してデザインに取り組んでいます。</br>
+                    その一つひとつの積み重ねが、ターゲットやコミュニティとの繋がりを生み出し、</br>
+                    対話のチャンスを広げるブランドを実現させると信じて、クライアントと共に関わる全ての仕事を成功させていきたいと願っています。
+                    </p>
+
+
                 </div>
                 <div class="consult-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/CREATIVE.png" alt="">
@@ -514,9 +883,9 @@ Template Name: service.php
                 <div class="consult1-top">
                     <h3>創造がビジネスを加速させる</h3>
                 </div>
-                <div class="consult1-me">
-                    <p><span>ユーザーのココロと行動を変化させ,
-                    お客様のブランドが 人々の記憶に深く刻まれるような
+                <div class="consult1-me"  style="text-align:center;">
+                    <p>ユーザーのココロと行動を変化させ、
+                    お客様のブランドが </br><span>人々の記憶に深く刻まれるような
                     "伝わる"クリエイティブを制作します。
                     </span></p>
                 </div>
@@ -557,7 +926,7 @@ Template Name: service.php
             </div>
         </div>
     </div>
-    <div class="consulting" 　id = "6">
+    <div class="consulting" id="id6">
         <div class="container">
             <div class="consult">
                 <div class="consult-img">
@@ -565,7 +934,95 @@ Template Name: service.php
                 </div>
                 <div class="consult-me">
                     <h3>システム開発 <span>WEB CONSULTING</span></h3>
-                    <p>社内ツール改善/システム選定/サーバー選定/脆弱性診断</p>
+                    <p>
+                    <a class="in_house_tools">社内ツール改善</a>
+                    /
+                    <a class="select_system">システム選定</a>
+                    /
+                    <a class="select_server">サーバー選定</a>
+                    /
+                    <a class="vulnerability_diagnosis">脆弱性診断</a>
+                    </p>
+
+                    <div class = "subbox" id = "in_house_tools" style="display:none; background-color:#696969;">
+                        <h3>社内ツール改善</h3>
+                        <p>
+                        社内で使われるツールを開発・改善することです。</br>
+                        社内ツールは、課題発見から解決まで社内で行うからこそ、ユーザーサイドと開発サイドが近く、ビジネスに直結する有効なツールを生み出すことができます。
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "select_system" style="display:none; background-color:#696969;">
+                        <h3>システム選定</h3>
+                        <p>
+
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "select_server" style="display:none; background-color:#696969;">
+                        <h3>サーバー選定</h3>
+                        <p>
+                        業務上で利用するシステムは、ビジネスを取り巻く環境の変化や新事業の発足等によって新しいものへと変えるタイミングがやってきます。</br>
+                        その際システム選定を成功させるポイントは、現状の業務フローを作成し、業務を可視化することです。</br>
+                        そして現状の業務を正しく理解することができれば、現状の業務を改善するためのシステム選定を的確に行うことが可能になります。
+                        </p>
+                    </div>
+
+                    <div class = "subbox" id = "vulnerability_diagnosis" style="display:none; background-color:#696969;">
+                        <h3>脆弱性診断</h3>
+                        <p>
+                        脆弱性診断とは、ネットワーク・OS・ミドルウェアやWebアプリケーションなどに脆弱性がないか診断することです。</br>
+                        脆弱性診断を実施することでネットワーク/サーバ、Webアプリケーションのセキュリティの現状を確認することで攻撃者からの悪意ある攻撃や情報漏えい事故などのリスクを未然に防ぐことができます。
+                        </p>
+                    </div>
+
+                    <script type="text/javascript">
+                        $(function() {
+                        
+                            // in_house_tools
+                            jQuery('.in_house_tools' ).mouseover(function() {
+                                jQuery('#in_house_tools').slideDown(300);
+                            });
+                            jQuery('.in_house_tools').mouseout(function() {
+                                jQuery('#in_house_tools').slideUp(300);
+                            });
+
+                            //select_system
+                            jQuery('.select_system' ).mouseover(function() {
+                                jQuery('#select_system').slideDown(300);
+                            });
+                            jQuery('.select_system').mouseout(function() {
+                                jQuery('#select_system').slideUp(300);
+                            });
+
+                            //select_server
+                            jQuery('.select_server' ).mouseover(function() {
+                                jQuery('#select_server').slideDown(300);
+                            });
+                            jQuery('.select_server').mouseout(function() {
+                                jQuery('#select_server').slideUp(300);
+                            });
+
+                            //vulnerability_diagnosis
+                            jQuery('.vulnerability_diagnosis' ).mouseover(function() {
+                                jQuery('#vulnerability_diagnosis').slideDown(300);
+                            });
+                            jQuery('.vulnerability_diagnosis').mouseout(function() {
+                                jQuery('#vulnerability_diagnosis').slideUp(300);
+                            });
+                        });
+                    </script>
+
+                    </br>
+                    <p class="" style="font-size:1.1rem; font-weight: bold;">システム開発とは</p>
+                    </br>
+                    <p class="" style="font-size:0.9rem;">
+                    事業戦略や業務プロセスがITと不可分となっている中、ITの活用力は競争力に大きく 影響します。</br>
+                    幅広い業種を対象に、IT戦略の策定やITを活用した業務改革の計画・実行支援、標準アーキテクチャの確立など、</br>
+                    企業のIT活用力の向上を支援する多様なサービスを提供しています。</br>
+                    業務とITの両方に精通したコンサルタントが、お客様と一体となって、IT活用力の向上に取り組んでいます。
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -574,10 +1031,9 @@ Template Name: service.php
                 <div class="consult1-top">
                     <h3>「効率」から「創造」へ</h3>
                 </div>
-                <div class="consult1-me">
-                    <p><span>顧客管理、営業管理システムといった
-                        ITの導入により業務を効率化し、新たな
-                        ビジネスチャンスを創造します。</span></p>
+                <div class="consult1-me" style="text-align:center;">
+                    <p>顧客管理、営業管理システムといったITの導入により業務を効率化し、</br>
+                    <span>新たなビジネスチャンスを創造します。</span></p>
                 </div>
             </div>
             <div class="consult2">
@@ -621,22 +1077,22 @@ Template Name: service.php
 			var prm = location.search;
 			
 			if(prm == "?id=1"){
-				var scroll = 690;
+				var scroll = jQuery('#id1').offset().top;
 			}
 			if(prm == "?id=2"){
-				var scroll = 2050;
+				var scroll = jQuery('#id2').offset().top;
 			}
 			if(prm == "?id=3"){
-				var scroll = 3320;
+				var scroll = jQuery('#id3').offset().top;
 			}
 			if(prm == "?id=4"){
-				var scroll = 4600;
+				var scroll = jQuery('#id4').offset().top;
 			}
 			if(prm == "?id=5"){
-				var scroll = 5900;
+				var scroll = jQuery('#id5').offset().top;
 			}
 			if(prm == "?id=6"){
-				var scroll = 7200;
+				var scroll = jQuery('#id6').offset().top;
 			}
 			jQuery(window).scrollTop(scroll);				
 			
