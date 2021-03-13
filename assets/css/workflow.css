@@ -1,0 +1,65 @@
+.workflow_content1{
+    position: relative;
+    width:90%; 
+    height:1000px; 
+    background:#FF7373; 
+    margin:0 auto; 
+    text-align:center; 
+    transform:skew(0deg,8deg);
+    z-index:7;
+}
+.workflow_content2{
+    position: relative;
+    width:90%; 
+    height:1300px; 
+    background:red; 
+    margin:0 auto; 
+    text-align:center; 
+    transform:skew(0deg,172deg);
+    z-index:6;
+    top:-300px;
+}
+.workflow_content3{
+    position: relative;
+    width:90%; 
+    height:1300px; 
+    background:blue; 
+    margin:0 auto; 
+    text-align:center; 
+    transform:skew(0deg,8deg);
+    z-index:5;
+    top:-600px;
+}
+.workflow_content4{
+    position: relative;
+    width:90%; 
+    height:1300px; 
+    background:blueviolet; 
+    margin:0 auto; 
+    text-align:center; 
+    transform:skew(0deg,172deg);
+    z-index:4;
+    top:-900px;
+}
+.workflow_content5{
+    position: relative;
+    width:90%; 
+    height:1300px; 
+    background:yellowgreen; 
+    margin:0 auto; 
+    text-align:center; 
+    transform:skew(0deg,172deg);
+    z-index:3;
+    top:-900px;
+}
+.workflow_content6{
+    position: relative;
+    width:90%; 
+    height:1300px; 
+    background:magenta; 
+    margin:0 auto; 
+    text-align:center; 
+    transform:skew(0deg,8deg);
+    z-index:4;
+    top:-1200px;
+}
