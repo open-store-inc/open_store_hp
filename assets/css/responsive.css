@@ -3,6 +3,7 @@
     body {
         width: px;
         margin: 0;
+		padding-top: 20px;
     }
     .top {
         margin: 150px 0;
@@ -26,7 +27,7 @@
     .header-nav{
         margin: 0;
         transform: translateY(-6px);
-        margin-left: 10px;
+        margin-left: 85%;
         position: absolute;
     }
     .headr-left {
@@ -44,7 +45,7 @@
     }
     .top-logo h3 {
         margin: 10px 0;
-        font-size: 32px;
+        font-size: 26px;
     }
     .top-logo p {
         font-size: 20px;
@@ -60,11 +61,8 @@
     .header-contact a {}
     .header-logo {}
     .header-nav a {}
-    .top-logo h3 {
-        font-size: 35px;
-    }
     .top-me p {
-        font-size: 20px;
+        font-size: 18px;
         width: 350px;
         margin: 0;
     }

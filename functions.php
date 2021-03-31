@@ -1,4 +1,6 @@
 <?php
+add_theme_support('post-thumbnails');
+set_post_thumbnail_size(160, 120, true);
 
 function webst8_setup() {
    //ここに関数の中身を記述します。
