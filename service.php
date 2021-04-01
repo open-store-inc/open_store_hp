@@ -46,6 +46,7 @@ Template Name: service.php
             <div class="consult consultx">
                 <div class="consult-me ">
                     <h3 class="">webコンサルティング <br><span >WEB CONSULTING</span></h3>
+<<<<<<< Updated upstream
                     </br>
                     <p class="" style="font-size:1.1rem; font-weight: bold;">webコンサルタントとは</p>
                     </br>
@@ -56,6 +57,10 @@ Template Name: service.php
                     インターネットの急速な普及により、Webサイトからの売り上げを伸ばしている企業が急増しています。</br>
                     また、Webサイトだけでサービスを展開している企業も多く、ユーザーにサービスの利用を促す施策を打つ必要性が高まっています
                     </p>
+=======
+                    <p class="">コンセプト設定/ブランディング戦略/CI・VI構築/CREDO設定/デザインガイドライン選定</p>
+                    <p class=""></p>
+>>>>>>> Stashed changes
                 </div>
                 <div class="consult-img ">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/WEB-CONSULTING.png" alt="">
@@ -636,7 +641,11 @@ Template Name: service.php
 
         </div>
     </div>
+<<<<<<< Updated upstream
     <div class="consulting" id="id5">
+=======
+    <div class="consulting" id = "5">
+>>>>>>> Stashed changes
         <div class="container">
             <div class="consult">
                 <div class="consult-me">
