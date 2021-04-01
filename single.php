@@ -17,8 +17,9 @@
 <!-- ロード画面用のスタイル -->
 		<style>
 			.load_img{
-				margin: 50% 45%;
-    			width: 10%;
+				margin: 30% 15%;
+				text-align: center;
+/*     			width: 10%; */
 			}
 			.breeding-rhombus-spinner {
 				  height: 65px;
@@ -179,9 +180,9 @@
 
 	</head>
 
-	<body style="background-color:black;">
+	<body style="background-color:rgb(241, 196, 15);">
 		<div class="load_img">
-			<div class="breeding-rhombus-spinner">
+<!-- 			<div class="breeding-rhombus-spinner">
 				<div class="rhombus child-1"></div>
 				<div class="rhombus child-2"></div>
 				<div class="rhombus child-3"></div>
@@ -191,7 +192,8 @@
 				<div class="rhombus child-7"></div>
 				<div class="rhombus child-8"></div>
 				<div class="rhombus big"></div>
-			</div>
+			</div> -->
+			<img src="<?php echo get_template_directory_uri(); ?>/img/load_img.gif"  style="width:70%;">
 		</div>
 		<div class="wrapper" style="display:none;">
 			<header>
@@ -240,19 +242,35 @@
 	</head>
 	<body>
 		<?php get_template_part('menu'); ?>
-	<div class="wrapper" style="display:block; margin:0 5%;">
+	<div class="wrapper" style="display:block;">
+		<div style="margin:0 5%;">
 		<div class="blog_text" style="text-align:center;">
 			<h2><?php the_title(); ?></h2>
 			<span class="blog_article_date"><?php the_time('Y.m.d') ?></span>
-			<div>
+			<style>
+				.attachment-full.size-full.wp-post-image{
+					width:100%;
+					height:100%;
+				}
+			</style>
+			<div style="max-width:80%; margin:0 10%;">
 				<?php if( has_post_thumbnail() ): ?>
 					<?php the_post_thumbnail('full'); ?>
 				<?php else: ?>
 					<img src="<?php echo get_template_directory_uri(); ?>/img/no-image.jpg" alt="no-img"/ class="nonImage">
 				<?php endif; ?>
 			</div>
-			<div><?php the_content(); ?></div>
+			<div style="
+			    width: 80%;
+			    margin: 0 10% 10% 10%;
+			"><?php the_content(); ?></div>
 		</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<p>株式会社open store</p>
+			</div>
+		</footer>
 		</div>
 	</body>
 </html>
