@@ -1,6 +1,17 @@
-    <title>株式会社 OPEN STORE</title>
+    <title>オープンストア株式会社</title>
     <link rel="SHORTCUT ICON" href="<?php echo get_template_directory_uri(); ?>/img/favicon/OPEN-STORE-logo.ico" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-191498151-1">
+	</script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-191498151-1');
+	</script>
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" type="text/css" />

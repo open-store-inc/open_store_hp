@@ -65,5 +65,7 @@ Template Name: blog_pages.php
 					<?php endwhile; endif; ?>
 			</div>
 		</div>
+	<?php get_footer(); ?> 
 	</div>
+
 </body>

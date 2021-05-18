@@ -8,7 +8,7 @@ Template Name: service.php
 <html>
 
 <head>
-    <title>株式会社 OPEN STORE</title>
+    <title alt="オープンストア　OPEN STORE">オープンストア株式会社</title>
     <?php get_header(); ?> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/stylesheet.css" type="text/css" />
 </head>
@@ -44,23 +44,18 @@ Template Name: service.php
     <div class="consulting" id="id1">
         <div class="container">
             <div class="consult consultx">
-                <div class="consult-me ">
-                    <h3 class="">webコンサルティング <br><span >WEB CONSULTING</span></h3>
-<<<<<<< Updated upstream
+                <div class="consult-me "　alt="WEBコンサルティング EC 通販">
+                    <h3 class="">WEBコンサルティング <br><span >WEB CONSULTING</span></h3>
                     </br>
-                    <p class="" style="font-size:1.1rem; font-weight: bold;">webコンサルタントとは</p>
+                    <p class="" style="font-size:1.1rem; font-weight: bold;">WEBコンサルタントとは</p>
                     </br>
                     <p class="" style="font-size:0.9rem;">
-                    「自社のWebサイトでサービスや製品をもっと多くの人に届けたい」「Web上で人材採用を進めていきたい」と思ったことはありませんか？</br>
-                    中小企業の管理職や新米のWeb担当者など、Webサイトの活用に関する知識や経験が少ない方から、</br>
-                    「自社のWebサイトはあるけれどどうやって改善していけばいいのか分からない」という悩みをよくお聞きします。</br>
-                    インターネットの急速な普及により、Webサイトからの売り上げを伸ばしている企業が急増しています。</br>
-                    また、Webサイトだけでサービスを展開している企業も多く、ユーザーにサービスの利用を促す施策を打つ必要性が高まっています
+                    「自社のWEBサイトでサービスや製品をもっと多くの人に届けたい」「WEB上で人材採用を進めていきたい」と思ったことはありませんか？</br>
+                    中小企業の管理職や新米のWEB担当者など、WEBサイトの活用に関する知識や経験が少ない方から、</br>
+                    「自社のWEBサイトはあるけれどどうやって改善していけばいいのか分からない」という悩みをよくお聞きします。</br>
+                    インターネットの急速な普及により、WEBサイトからの売り上げを伸ばしている企業が急増しています。</br>
+                    また、WEBサイトだけでサービスを展開している企業も多く、ユーザーにサービスの利用を促す施策を打つ必要性が高まっています
                     </p>
-=======
-                    <p class="">コンセプト設定/ブランディング戦略/CI・VI構築/CREDO設定/デザインガイドライン選定</p>
-                    <p class=""></p>
->>>>>>> Stashed changes
                 </div>
                 <div class="consult-img ">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/WEB-CONSULTING.png" alt="">
@@ -112,61 +107,85 @@ Template Name: service.php
                     </div>
                 </div>
             </div> -->
+				<style>
+					.non-active{
+						display:inline-block;
+					}
+					.active2{
+						display:none;
+					}
+				</style>
 
             <div class="consult3" style="background-color: #e74c3c;">
                 <div class="consult3-contents">
-                    <div class="consult3-content strategy2">
-                        <a class="">戦略立案</a>
-                    </div>
-                    <div class="consult3-content innovation2">
-                        <a class="">イノベーション支援</a>
-                    </div>
-                    <div class="consult3-content consept2">
-                        <a class="">コンセプト設計</a>
-                    </div>
-                    <div class="consult3-content branding2">
-                        <a class="">ブランディング戦略</a>
-                    </div>
-                </div>
-
-                <div class = "subbox2 web_consulting" id = "strategy2">
-                    <h1>戦略立案</h1>
-                    <p class="subbox2_text">
-                    企業において、有効な事業戦略を立案し、実施することは重要な課題です。しかし、事業戦略とは、単純に商品を投入する計画を立てることではありません。</br>
-                    企業の環境や市場の動向、競合との差別化など、様々な要因を考慮しつつ、それらを適切に分析・判断し、自社にとって有効な一手となるように計画しなくてはなりません。</br>
-                    顧客の獲得、顧客単価の底上げ、認知拡大といったマーケティング上の課題や、さらに上位の視点から売り上げや利益の拡大といった全体的な課題の解決を目的に考えなければなりません。</br>
-                    私たちとともに、最適なWebサイト戦略を展開しましょう！！
-                    </p>
-                </div>
-
-                <div class = "subbox2 web_consulting" id = "innovation2">
-                    <h1>イノベーション支援</h1>
-                    <p class="subbox2_text">
-                    現在、IT技術は私たちの生活に欠かせないものになっています。</br>
-                    今後も、全ての業種でIT技術の活用なくして企業や事業の発展はあり得ない状況です。</br>
-                    そこで、私たちの様なITサービス提供会社を活用いただきたく事が事業改善や企業発展に必要なIT技術を活用する近道になると考えています。
-                    </p>
-                </div>
-
-                <div class = "subbox2 web_consulting" id = "consept2">
-                    <h1>コンセプト設計</h1>
-                    <p class="subbox2_text">
-                    「どうやったら魅力的なコンセプトが作れるようになるか？」は永遠のテーマですが、それを考え出すためのいわゆる「コツ」があります。</br>
-                    コンセプトとはビジネスのアイデアや構想を一言にまとめたもので、事業計画を立てる際に必須となる項目です。</br>
-                    これから計画する事業活動はどのような市場や人を対象にしていて、何のために、どのようなモノ・コトを提供するのかといったポイントを具体的に示します。</br>
-                    コンセプトを明確にすると、事業の概念や考え方に沿った商品やサービスを生み出すことができます。 
-                    </p>
-                </div>
-
-                <div class = "subbox2 web_consulting" id = "branding2">
-                    <h1>ブランディング戦略</h1>
-                    <p class="subbox2_text">
-                    自宅の家電にはロゴが入っているし、駅に降り立てばあちこちに看板が出ています。</br>
-                    コンビニを1周するだけで、数百のブランドが目に入るでしょう。</br>
-                    私たちは意識するにせよ、しないにせよ、望むにせよ、望まないにせよ、ブランドに囲まれて暮らしているのが実態です。</br>
-                    ブランド戦略を実施するということは、新しい予算で新しい施策を追加するというより、既存の商品・サービスそのものや、広告、営業、接客など、その他あらゆる顧客接点で与えている印象を、一貫性があるように整えることが主な内容になります。</br>
-                    自社の商品・サービスを、他社のものと区別してもらう。それがブランドの目的なのです</br>
-                    </p>
+							<div class="title_box">
+								<img class="strategy2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+								<img class="strategy2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+								<div class="consult3-content strategy2">
+									<a class="">戦略立案</a>
+								</div>
+							</div>
+							<br>
+							<div class = "subbox2 web_consulting" id = "strategy2">
+								<h1>戦略立案</h1>
+								<p class="subbox2_text">
+								企業において、有効な事業戦略を立案し、実施することは重要な課題です。しかし、事業戦略とは、単純に商品を投入する計画を立てることではありません。</br>
+								企業の環境や市場の動向、競合との差別化など、様々な要因を考慮しつつ、それらを適切に分析・判断し、自社にとって有効な一手となるように計画しなくてはなりません。</br>
+								顧客の獲得、顧客単価の底上げ、認知拡大といったマーケティング上の課題や、さらに上位の視点から売り上げや利益の拡大といった全体的な課題の解決を目的に考えなければなりません。</br>
+								私たちとともに、最適なWEBサイト戦略を展開しましょう！！
+								</p>
+							</div>
+							<div class="title_box">
+								<img class="innovation2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+								<img class="innovation2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content innovation2">
+                        	<a class="">イノベーション支援</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 web_consulting" id = "innovation2">
+								<h1>イノベーション支援</h1>
+								<p class="subbox2_text">
+								現在、IT技術は私たちの生活に欠かせないものになっています。</br>
+								今後も、全ての業種でIT技術の活用なくして企業や事業の発展はあり得ない状況です。</br>
+								そこで、私たちの様なITサービス提供会社を活用いただきたく事が事業改善や企業発展に必要なIT技術を活用する近道になると考えています。
+								</p>
+							</div>
+							<div class="title_box">
+								<img class="consept2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+								<img class="consept2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    		<div class="consult3-content consept2">
+                        		<a class="">コンセプト設計</a>
+                    		</div>
+							</div>
+							<br>
+							<div class = "subbox2 web_consulting" id = "consept2">
+								<h1>コンセプト設計</h1>
+								<p class="subbox2_text">
+								「どうやったら魅力的なコンセプトが作れるようになるか？」は永遠のテーマですが、それを考え出すためのいわゆる「コツ」があります。</br>
+								コンセプトとはビジネスのアイデアや構想を一言にまとめたもので、事業計画を立てる際に必須となる項目です。</br>
+								これから計画する事業活動はどのような市場や人を対象にしていて、何のために、どのようなモノ・コトを提供するのかといったポイントを具体的に示します。</br>
+								コンセプトを明確にすると、事業の概念や考え方に沿った商品やサービスを生み出すことができます。 
+								</p>
+							</div>
+							<div class="title_box">
+								<img class="branding2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+								<img class="branding2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content branding2">
+                        	<a class="">ブランディング戦略</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 web_consulting" id = "branding2">
+								<h1>ブランディング戦略</h1>
+								<p class="subbox2_text">
+								自宅の家電にはロゴが入っているし、駅に降り立てばあちこちに看板が出ています。</br>
+								コンビニを1周するだけで、数百のブランドが目に入るでしょう。</br>
+								私たちは意識するにせよ、しないにせよ、望むにせよ、望まないにせよ、ブランドに囲まれて暮らしているのが実態です。</br>
+								ブランド戦略を実施するということは、新しい予算で新しい施策を追加するというより、既存の商品・サービスそのものや、広告、営業、接客など、その他あらゆる顧客接点で与えている印象を、一貫性があるように整えることが主な内容になります。</br>
+								自社の商品・サービスを、他社のものと区別してもらう。それがブランドの目的なのです</br>
+								</p>
+							</div>
                 </div>
             </div>
         </div>
@@ -179,18 +198,17 @@ Template Name: service.php
     <div class="consulting" id="id2">
         <div class="container">
             <div class="consult">
-
                 <div class="consult-me ">
                     <h3>WEBサービス制作/開発 　<br><span>WEB SERVICE PRODUCTION</span></h3>
                     </br>
                     <p class="" style="font-size:1.1rem; font-weight: bold;">WEB制作/開発とは</p>
                     </br>
                     <p class="" style="font-size:0.9rem;">
-                    Webサイト構築とは、単にテキスト要素を含むHTMLファイルとデザイン要素としての</br>画像ファイルの組み合わせを行うことではありません。</br>
-                    Webサイトを立ち上げたい、リニューアルしたい、売り上げを伸ばしたい、など様々なニーズがありますが、</br>
-                    Webサイトを構築するための全工程をしっかり把握してから構築を行っている企業は、どれくらいあるでしょうか？</br>
-                    特に、Webサイトを企業のマーケティングツールとして捉えた場合はなおさらです。</br>
-                    その場合、Webサイト構築の目的は「より多くのお客様からコンタクトをもらえるような仕組み」を作ることです。
+                    WEBサイト構築とは、単にテキスト要素を含むHTMLファイルとデザイン要素としての</br>画像ファイルの組み合わせを行うことではありません。</br>
+                    WEBサイトを立ち上げたい、リニューアルしたい、売り上げを伸ばしたい、など様々なニーズがありますが、</br>
+                    WEBサイトを構築するための全工程をしっかり把握してから構築を行っている企業は、どれくらいあるでしょうか？</br>
+                    特に、WEBサイトを企業のマーケティングツールとして捉えた場合はなおさらです。</br>
+                    その場合、WEBサイト構築の目的は「より多くのお客様からコンタクトをもらえるような仕組み」を作ることです。
                     </p>
                 </div>
                 <div class="consult-img ">
@@ -246,86 +264,100 @@ Template Name: service.php
 
             <div class="consult3" style="background-color: #f1c40f;">
                 <div class="consult3-contents">
-                    <div class="consult3-content corporate2">
-                        <a class="">コーポレートサイト</a>
-                    </div>
-                    <div class="consult3-content service_site2">
-                        <a class="">サービスサイト</a>
-                    </div>
-                    <div class="consult3-content lp2">
-                        <a class="">lp</a>
-                    </div>
-                    <div class="consult3-content owned2">
-                        <a class="">オウンドメディア</a>
-                    </div>
-                    <div class="consult3-content recruit_site2">
-                        <a class="">リクルートサイト</a>
-                    </div>
-                </div>
-
-                <div class = "subbox2 web_service" id = "corporate2">
-                    <h1>コーポレートサイト</h1>
-                    <p class="subbox2_text">
-                    会社のWebサイトです。簡単に言えば、会社の公式プロフィールとも言えます。</br>
-                    主にどのような会社なのか、どのような製品・サービスを扱っているのか、などの情報を記載します</br>
-                    従来は、会社案内のパンフレットのWeb晩=コーポレートサイトといった認識が一般的でしたが、現在では、「採用、広告、企業ブランディング」と用途は多岐にわたります。</br>
-                    コーポレートサイトを通じて何をしたいのか「目的意識」をもって制作・運用に力を入れる企業が増えてきています。
-                    </p>
-                </div>
-
-                <div class = "subbox2 web_service" id = "service_site2">
-                    <h1>サービスサイト</h1>
-                    <p class="subbox2_text">
-                    広告の商品やサービスについて詳しく紹介し、問い合わせや購入につなげるためのサイトです。</br>
-                    企業そのものよりも、商品やサービスにスポットを当てています。</br>
-                    会社が扱う全ての商品やサービスの情報を紹介しています。ページ数も多く、商品やサービスに関するあらゆる情報が網羅されている事が特徴です。</br>
-                    また、BtoB と BtoC によってもサイトによるアプローチ手法が異なります。
-                    </p>
-                </div>
-
-                <div class = "subbox2 web_service" id = "lp2">
-                    <h1>lp</h1>
-                    <p class="subbox2_text">
-                    サービスサイトから、さらにターゲットや商品を絞り、「１つ」の商品やサービスを売るためのWebサイトのことをランディングページといいます。</br>
-                    サービスサイトを「Web版カタログ」とすると、LPは「Web版チラシ」に近いイメージです。</br></br>
-                    ・特定の商品やサービスを売ることに特価</br>
-                    ・１ページのみで構成「他のページに移動できない」</br>
-                    ・サイトのゴールが明白(お問い合わせや販売に特価)
-                    </p>
-                </div>
-
-                <div class = "subbox2 web_service" id = "owned2">
-                    <h1>オウンドメディア</h1>
-                    <p class="subbox2_text">
-                    同じ「集客」が目的でも、ランディングページとは異なり、中長期的な集客施策を行うなら、オウンドメディアがおすすめです。</br>
-                    オウンドメディアは、「様々なコンテンツを通して商品やサービスの魅力を発信し、集客を行う」ためのWebサイトです。</br></br>
-                    ・ランディングページのように広告費が不要</br>
-                    ・コンテンツが積みあがってくると継続的に集客を行える</br>
-                    ・ユーザーにしっかり情報発信を行うため顧客単価が高い
-                    </p>
-                </div>
-
-                <div class = "subbox2 web_service" id = "recruit_site2">
-                    <h1>リクルートサイト</h1>
-                    <p class="subbox2_text">
-                    基本的に企業の採用を強化するのが目的です。</br>
-                    コーポレートサイトの中に、「採用情報」として掲載されている会社も存在します。</br>
-                    しかし、基本的に採用を行う場合は、採用サイトとして独立したWebサイトが求められます。</br>
-                    採用サイトの主な目的は、「他媒体で会社のことを知った候補者に応募するための一押しをする」ことです。</br>
-                    </p>
+							<div class="title_box">
+								<img class="corporate2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+								<img class="corporate2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content corporate2">
+                       	<a class="">コーポレートサイト</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 web_service" id = "corporate2">
+								<h1>コーポレートサイト</h1>
+								<p class="subbox2_text">
+								会社のWEBサイトです。簡単に言えば、会社の公式プロフィールとも言えます。</br>
+								主にどのような会社なのか、どのような製品・サービスを扱っているのか、などの情報を記載します</br>
+								従来は、会社案内のパンフレットのWEB晩=コーポレートサイトといった認識が一般的でしたが、現在では、「採用、広告、企業ブランディング」と用途は多岐にわたります。</br>
+								コーポレートサイトを通じて何をしたいのか「目的意識」をもって制作・運用に力を入れる企業が増えてきています。
+								</p>
+							</div>
+							<div class="title_box">
+								<img class="service_site2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+								<img class="service_site2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content service_site2">
+                        	<a class="">サービスサイト</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 web_service" id = "service_site2">
+								<h1>サービスサイト</h1>
+								<p class="subbox2_text">
+								広告の商品やサービスについて詳しく紹介し、問い合わせや購入につなげるためのサイトです。</br>
+								企業そのものよりも、商品やサービスにスポットを当てています。</br>
+								会社が扱う全ての商品やサービスの情報を紹介しています。ページ数も多く、商品やサービスに関するあらゆる情報が網羅されている事が特徴です。</br>
+								また、BtoB と BtoC によってもサイトによるアプローチ手法が異なります。
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="lp2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="lp2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content lp2">
+                        	<a class="">lp</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 web_service" id = "lp2">
+								<h1>lp</h1>
+								<p class="subbox2_text">
+								サービスサイトから、さらにターゲットや商品を絞り、「１つ」の商品やサービスを売るためのWEBサイトのことをランディングページといいます。</br>
+								サービスサイトを「WEB版カタログ」とすると、LPは「WEB版チラシ」に近いイメージです。</br></br>
+								・特定の商品やサービスを売ることに特価</br>
+								・１ページのみで構成「他のページに移動できない」</br>
+								・サイトのゴールが明白(お問い合わせや販売に特価)
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="owned2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="owned2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content owned2">
+                        	<a class="">オウンドメディア</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 web_service" id = "owned2">
+								<h1>オウンドメディア</h1>
+								<p class="subbox2_text">
+								同じ「集客」が目的でも、ランディングページとは異なり、中長期的な集客施策を行うなら、オウンドメディアがおすすめです。</br>
+								オウンドメディアは、「様々なコンテンツを通して商品やサービスの魅力を発信し、集客を行う」ためのWEBサイトです。</br></br>
+								・ランディングページのように広告費が不要</br>
+								・コンテンツが積みあがってくると継続的に集客を行える</br>
+								・ユーザーにしっかり情報発信を行うため顧客単価が高い
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="recruit_site2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="recruit_site2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content recruit_site2">
+                        	<a class="">リクルートサイト</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 web_service" id = "recruit_site2">
+								<h1>リクルートサイト</h1>
+								<p class="subbox2_text">
+								基本的に企業の採用を強化するのが目的です。</br>
+								コーポレートサイトの中に、「採用情報」として掲載されている会社も存在します。</br>
+								しかし、基本的に採用を行う場合は、採用サイトとして独立したWEBサイトが求められます。</br>
+								採用サイトの主な目的は、「他媒体で会社のことを知った候補者に応募するための一押しをする」ことです。</br>
+								</p>
+							</div>
                 </div>
             </div>
-
-
-
-
-
         </div>
     </div>
     <div class="consulting" id="id3">
         <div class="container">
             <div class="consult">
-
                 <div class="consult-me ">
                     <h3>ECサイト構築/運営 <br><span>EC SITE CONSTRUCTION/OPERATION</span></h3>
                     </br>
@@ -393,79 +425,95 @@ Template Name: service.php
 
             <div class="consult3" style="background-color: #1abc9c;">
                 <div class="consult3-contents">
+							<div class="title_box">
+							<img class="ec_site2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="ec_site2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content ec_site2">
                         <a class="">ECサイト制作</a>
                     </div>
-                    <div class="consult3-content system_custom2">
-                        <a class="">システムカスタマイズ</a>
-                    </div>
-                    <div class="consult3-content kpi_setting2">
-                        <a class="">KPI設定</a>
-                    </div>
-                    <div class="consult3-content site_operation2">
-                        <a class="">サイト運営代行</a>
-                    </div>
-                    <div class="consult3-content product_photograph2">
-                        <a class="">商品撮影</a>
-                    </div>
-                </div>
-
-                <div class = "subbox2 ec_site" id = "ec_site2">
-                    <h1>ECサイト制作</h1>
-                    <p class="subbox2_text">
-                    これまでECサイトを展開するには、自社でサーバを用意し、パッケージを導入する必要があったが、サブスクリプション型のサービスモデルでECサイトを開設できる容易さが評価されています。</br> 
-                    多言語・多通貨・海外配送も簡単にできるため、越境ECも可能となっています。</br>
-                    デザインの変更も容易で、数十もの「テーマ」を使うことで、ITエンジニアやデザイナーを雇わなくとも、高品質なデザインがサイト全体に適用できます。</br>
-                    さらにサードパーティの開発者が公開している「アプリ」を導入すれば、不足している機能も追加できます。</br>
-                    </p>
-                </div>
-
-                <div class = "subbox2 ec_site" id = "system_custom2">
-                    <h1>システムカスタマイズ</h1>
-                    <p style="text-align:left;margin:10px 25%;font-size: 1.2rem;">
-                    お客様の日常業務での「不便・・困った・・こんな機能があれば・・」から始まるご要望に、 機能追加と最適化のカスタマイズでお応えします。</br>
-                    オリジナリティを出すためにできるカスタマイズをご提案します!!</br>
-                    </p>
-                </div>
-
-                <div class = "subbox2 ec_site" id = "kpi_setting2">
-                    <h1>KPI設定</h1>
-                    <p class="subbox2_text">
-                    KPIとは、Key Performance Indicatorの略称で、「重要業績評価指数」と訳されています。</br>
-                    KPIは、最終目標を達成するために必要な要因を幾つか洗い出し、</br>
-                    目標達成に向かって順調に進んでいるかを点検するために設ける中間指標で、</br>
-                    具体的な数値で表したものです。</br>
-                    またKPIはただ設定するだけではなく、<br>
-                    PDCA（Plan:計画、Do：実行、Check：評価、Action：改善）サイクルで行うことが必要です。</br>
-                    そしてこれを1回で終わらせないで何回も続けて行うことが重要ですので、一連の流れが定着するよう支援します。
-                    </p>
-                </div>
-
-                <div class = "subbox2 ec_site" id = "site_operation2">
-                    <h1>サイト運営代行</h1>
-                    <p class="subbox2_text">
-                    販売戦略の構築、新規集客、リピート対策、商品撮影、商品登録、WEBデザイン、注文・配送、物流倉庫、顧客対応、サイト分析にいたるまでネットショップのすべてをオープンストアへおまかせいただけます。</br>
-                    企業様はネットショップ運営がスムーズになれば、時間的な余裕が生まれます。</br>
-                    企業様は新たな商品企画やキャンペーン、プロモーション、顧客とのコミュニケーションなど、より売上アップのための業務に集中できます。</br>
-                    すべての業務の代行だけでなく、一部の代行も可能です。</br>
-                    </p>
-                </div>
-
-                <div class = "subbox2 ec_site" id = "product_photograph2">
-                    <h1>商品撮影</h1>
-                    <p class="subbox2_text">
-                    商品写真はECサイトで重要な役割を担っています。商品撮影の正しい知識を身につければ、商品写真を通して事業者様の「思い」を伝えることもできます。</br>
-                    商品撮影の目的は、正確に商品の特徴を伝えることと、商品の魅力を引き出すことにあります。</br>
-                    あなたがどうしても売りたい商品があるとき、いろいろな言葉で一生懸命その商品の特徴や魅力について説明するでしょう。</br>
-                    写真は、その言葉の意味するところから言葉では表現しきれない情報まで、視覚的に伝えることができます。</br>
-                    だからこそ、ECサイトにおいて商品写真はとても重要な役割を担っていると言われています。</br>
-                    </p>
+							</div>
+							<br>
+							<div class = "subbox2 ec_site" id = "ec_site2">
+								<h1>ECサイト制作</h1>
+								<p class="subbox2_text">
+								これまでECサイトを展開するには、自社でサーバを用意し、パッケージを導入する必要があったが、サブスクリプション型のサービスモデルでECサイトを開設できる容易さが評価されています。</br> 
+								多言語・多通貨・海外配送も簡単にできるため、越境ECも可能となっています。</br>
+								デザインの変更も容易で、数十もの「テーマ」を使うことで、ITエンジニアやデザイナーを雇わなくとも、高品質なデザインがサイト全体に適用できます。</br>
+								さらにサードパーティの開発者が公開している「アプリ」を導入すれば、不足している機能も追加できます。</br>
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="system_custom2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="system_custom2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content system_custom2">
+                        	<a class="">システムカスタマイズ</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 ec_site" id = "system_custom2">
+								<h1>システムカスタマイズ</h1>
+								<p class="subbox2_text">
+								お客様の日常業務での「不便・・困った・・こんな機能があれば・・」から始まるご要望に、 機能追加と最適化のカスタマイズでお応えします。</br>
+								オリジナリティを出すためにできるカスタマイズをご提案します!!</br>
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="kpi_setting2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="kpi_setting2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content kpi_setting2">
+                        	<a class="">KPI設定</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 ec_site" id = "kpi_setting2">
+								<h1>KPI設定</h1>
+								<p class="subbox2_text">
+								KPIとは、Key Performance Indicatorの略称で、「重要業績評価指数」と訳されています。</br>
+								KPIは、最終目標を達成するために必要な要因を幾つか洗い出し、</br>
+								目標達成に向かって順調に進んでいるかを点検するために設ける中間指標で、</br>
+								具体的な数値で表したものです。</br>
+								またKPIはただ設定するだけではなく、<br>
+								PDCA（Plan:計画、Do：実行、Check：評価、Action：改善）サイクルで行うことが必要です。</br>
+								そしてこれを1回で終わらせないで何回も続けて行うことが重要ですので、一連の流れが定着するよう支援します。
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="site_operation2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="site_operation2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content site_operation2">
+                        	<a class="">サイト運営代行</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 ec_site" id = "site_operation2">
+								<h1>サイト運営代行</h1>
+								<p class="subbox2_text">
+								販売戦略の構築、新規集客、リピート対策、商品撮影、商品登録、WEBデザイン、注文・配送、物流倉庫、顧客対応、サイト分析にいたるまでネットショップのすべてをオープンストアへおまかせいただけます。</br>
+								企業様はネットショップ運営がスムーズになれば、時間的な余裕が生まれます。</br>
+								企業様は新たな商品企画やキャンペーン、プロモーション、顧客とのコミュニケーションなど、より売上アップのための業務に集中できます。</br>
+								すべての業務の代行だけでなく、一部の代行も可能です。</br>
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="product_photograph2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="product_photograph2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content product_photograph2">
+                        	<a class="">商品撮影</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 ec_site" id = "product_photograph2">
+								<h1>商品撮影</h1>
+								<p class="subbox2_text">
+								商品写真はECサイトで重要な役割を担っています。商品撮影の正しい知識を身につければ、商品写真を通して事業者様の「思い」を伝えることもできます。</br>
+								商品撮影の目的は、正確に商品の特徴を伝えることと、商品の魅力を引き出すことにあります。</br>
+								あなたがどうしても売りたい商品があるとき、いろいろな言葉で一生懸命その商品の特徴や魅力について説明するでしょう。</br>
+								写真は、その言葉の意味するところから言葉では表現しきれない情報まで、視覚的に伝えることができます。</br>
+								だからこそ、ECサイトにおいて商品写真はとても重要な役割を担っていると言われています。</br>
+								</p>
+							</div>
                 </div>
             </div>
-
-
-
-
         </div>
     </div>
     <div class="consulting" id="id4">
@@ -480,7 +528,7 @@ Template Name: service.php
                     <p class="" style="font-size:0.9rem;">
                     デジタル領域のマーケティングを中心に、データ解析と効果計測に基づく実践的マーケティングの立案から実施・コンサルティングまで柔軟に対応いたします。</br>
                     また、ブランド構築やインフルエンサー・メディア・広告の運用など、幅広い領域のソリューションでお客様の事業を一貫してサポートいたします。</br>
-                    Webサイト運営に不可欠な各種広告の運用やデータ解析を通じてマーケティング活動を支援。</br>
+                    WEBサイト運営に不可欠な各種広告の運用やデータ解析を通じてマーケティング活動を支援。</br>
                     また販売パートナー開拓を通じた集客・販売活動支援など幅広くお手伝いしています
                     </p>
 
@@ -540,112 +588,128 @@ Template Name: service.php
 
             <div class="consult3" style="background-color: #3498db;">
                 <div class="consult3-contents">
-                    <div class="consult3-content targeting2">
-                        <a class="">ターゲティング戦略</a>
-                    </div>
-                    <div class="consult3-content influencer_marketing2">
-                        <a class="">インフルエンサーマーケティング</a>
-                    </div>
+							<div class="title_box">
+							<img class="targeting2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="targeting2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+								<div class="consult3-content targeting2">
+									<a class="">ターゲティング戦略</a>
+								</div>
+							</div>
+							<br>
+							<div class = "subbox2 marketing" id = "targeting2">
+								<h1>ターゲティング戦略</h1>
+								<p style="text-align:left;margin:10px 25%;font-size: 1.2rem;">
+									6R</br>
+									&nbsp;&nbsp;・有効な市場規模</br>
+									&nbsp;&nbsp;・競合状況</br>
+									&nbsp;&nbsp;・成長性</br>
+									&nbsp;&nbsp;・波及効果</br>
+									&nbsp;&nbsp;・到達可能性</br>
+									&nbsp;&nbsp;・測定可能性</br>
+									を用いて、STP分析(セグメンテーション、ターゲティング、ポジショニング)をします。</br>
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="influencer_marketing2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="influencer_marketing2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
+                    	<div class="consult3-content influencer_marketing2">
+                        	<a class="">インフルエンサーマーケティング</a>
+                    	</div>
+							</div>
+							<br>
+							<div class = "subbox2 marketing" id = "influencer_marketing2">
+								<h1>インフルエンサーマーケティング</h1>
+								<p class="subbox2_text">
+								主にSNS(Instagram、Twitter、Facebook等)で大きな影響力をもつ</br>
+								インフルエンサーにブランドの製品やサービスを紹介してもらい、</br>
+								消費者の態度変容や行動変容を促すコミュニケーション型マーケティング手法になります。</br>
+								WEB上での集客や認知拡大が売上に直結する今、</br>
+								セグメントやターゲティングが細かく設定でき、</br>
+								より多くの潜在顧客にリーチできるSNS広告は必須となります。</br>
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="gdn_ydn_advertising2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="gdn_ydn_advertising2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content gdn_ydn_advertising2">
                         <a class="">GDN・YDN広告</a>
+
                     </div>
+							</div>
+							<br>
+							<div class = "subbox2 marketing" id = "gdn_ydn_advertising2">
+								<h1>GDN・YDN広告</h1>
+								<p class="subbox2_text">
+								GDN(Googleディスプレイネットワーク)</br>
+								YDN(Yahooディスプレイネットワーク)</br>
+								上記を用いたディスプレイ広告(サイト閲覧時に画像・動画形式で広告が表示される広告)になります。</br>
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="listing_advertising2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="listing_advertising2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content listing_advertising2">
                         <a class="">リスティング広告</a>
+								</div>
                     </div>
+							<br>
+							<div class = "subbox2 marketing" id = "listing_advertising2">
+								<h1>リスティング広告・DSP広告</h1>
+								<p class="subbox2_text">
+								リスティング広告とは、検索エンジン(Google、Yahoo!)の検索結果に連動して表示される検索連動型広告です。</br>
+								特定のキーワードに対して広告を表示させることができ、</br>
+								そのキーワードをユーザーが検索している関心が高いときに広告が表示されるため、</br>
+								コンバージョン率が高くなりやすいのが特徴です。</br>
+								DSP広告は、DSP(広告主側)、SSP(媒体側)それぞれが持つユーザーの行動履歴などの膨大なデータをもとに、</br>
+								自動的に広告の最適化と費用対効果を上げる仕組みであるため、</br>
+								面(とにかく幅広い層)ではなく人(ピンポイント)にアプローチできるのが特徴です。</br>
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="usesability_survey2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="usesability_survey2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content usesability_survey2">
                         <a class="">ユーザビリティ調査</a>
+								</div>
                     </div>
+							<br>
+							<div class = "subbox2 marketing" id = "usesability_survey2">
+								<h1>ユーザビリティ調査</h1>
+								<p class="subbox2_text">
+								ユーザビリティ調査とは、製品やWEBサイト、スマートフォンのアプリなどの使い勝手の良さを評価する調査です。</br>
+								競合とのサービス比較やサイト・アプリリニューアルの際の課題の洗い出しや方向性の指針を明確にすることが可能になります。</br>
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="heuristic_evaluation2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="heuristic_evaluation2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content heuristic_evaluation2">
                         <a class="">ヒューリスティック評価</a>
+								</div>
                     </div>
-                </div>
-
-                <div class = "subbox2 marketing" id = "targeting2">
-                    <h1>ターゲティング戦略</h1>
-                    <p style="text-align:left;margin:10px 25%;font-size: 1.2rem;">
-                        6R</br>
-                        &nbsp;&nbsp;・有効な市場規模</br>
-                        &nbsp;&nbsp;・競合状況</br>
-                        &nbsp;&nbsp;・成長性</br>
-                        &nbsp;&nbsp;・波及効果</br>
-                        &nbsp;&nbsp;・到達可能性</br>
-                        &nbsp;&nbsp;・測定可能性</br>
-                        を用いて、STP分析(セグメンテーション、ターゲティング、ポジショニング)をします。</br>
-                    </p>
-                </div>
-
-                <div class = "subbox2 marketing" id = "influencer_marketing2">
-                    <h1>インフルエンサーマーケティング</h1>
-                    <p class="subbox2_text">
-                    主にSNS(Instagram、Twitter、Facebook等)で大きな影響力をもつ</br>
-                    インフルエンサーにブランドの製品やサービスを紹介してもらい、</br>
-                    消費者の態度変容や行動変容を促すコミュニケーション型マーケティング手法になります。</br>
-                    Web上での集客や認知拡大が売上に直結する今、</br>
-                    セグメントやターゲティングが細かく設定でき、</br>
-                    より多くの潜在顧客にリーチできるSNS広告は必須となります。</br>
-                    </p>
-                </div>
-
-                <div class = "subbox2 marketing" id = "gdn_ydn_advertising2">
-                    <h1>GDN・YDN広告</h1>
-                    <p class="subbox2_text">
-                    GDN(Googleディスプレイネットワーク)</br>
-                    YDN(Yahooディスプレイネットワーク)</br>
-                    上記を用いたディスプレイ広告(サイト閲覧時に画像・動画形式で広告が表示される広告)になります。</br>
-                    </p>
-                </div>
-
-                <div class = "subbox2 marketing" id = "listing_advertising2">
-                    <h1>リスティング広告・DSP広告</h1>
-                    <p class="subbox2_text">
-                    リスティング広告とは、検索エンジン(Google、Yahoo!)の検索結果に連動して表示される検索連動型広告です。</br>
-                    特定のキーワードに対して広告を表示させることができ、</br>
-                    そのキーワードをユーザーが検索している関心が高いときに広告が表示されるため、</br>
-                    コンバージョン率が高くなりやすいのが特徴です。</br>
-                    DSP広告は、DSP(広告主側)、SSP(媒体側)それぞれが持つユーザーの行動履歴などの膨大なデータをもとに、</br>
-                    自動的に広告の最適化と費用対効果を上げる仕組みであるため、</br>
-                    面(とにかく幅広い層)ではなく人(ピンポイント)にアプローチできるのが特徴です。</br>
-                    </p>
-                </div>
-
-                <div class = "subbox2 marketing" id = "usesability_survey2">
-                    <h1>ユーザビリティ調査</h1>
-                    <p class="subbox2_text">
-                    ユーザビリティ調査とは、製品やWEBサイト、スマートフォンのアプリなどの使い勝手の良さを評価する調査です。</br>
-                    競合とのサービス比較やサイト・アプリリニューアルの際の課題の洗い出しや方向性の指針を明確にすることが可能になります。</br>
-                    </p>
-                </div>
-
-                <div class = "subbox2 marketing" id = "heuristic_evaluation2">
-                    <h1>ユーザビリティ調査</h1>
-                    <p style="text-align:left;margin:10px 25%;font-size: 1.2rem;">
-                    ヒューリスティック評価とは、10の経験則</br>
-                    &nbsp;&nbsp;・システムの状態の把握</br>
-                    &nbsp;&nbsp;・利用環境に適合したシステムの作成</br>
-                    &nbsp;&nbsp;・ユーザーに操作の主導権と自由度の付与</br>
-                    &nbsp;&nbsp;・一貫性を保つ</br>
-                    &nbsp;&nbsp;・エラーの防止</br>
-                    &nbsp;&nbsp;・シンプルなデザイン</br>
-                    &nbsp;&nbsp;・柔軟性と効率性</br>
-                    &nbsp;&nbsp;・最小限</br>
-                    &nbsp;&nbsp;・サポート</br>
-                    &nbsp;&nbsp;・ヘルプ</br>
-                    に基づいてユーザビリティを評価し、 UI 上の問題を発見できます。</br>
-                    </p>
+							<br>
+							<div class = "subbox2 marketing" id = "heuristic_evaluation2">
+								<h1>ヒューリスティック評価</h1>
+								<p style="text-align:left;margin:10px 25%;font-size: 1.2rem;">
+								ヒューリスティック評価とは、10の経験則</br>
+								&nbsp;&nbsp;・システムの状態の把握</br>
+								&nbsp;&nbsp;・利用環境に適合したシステムの作成</br>
+								&nbsp;&nbsp;・ユーザーに操作の主導権と自由度の付与</br>
+								&nbsp;&nbsp;・一貫性を保つ</br>
+								&nbsp;&nbsp;・エラーの防止</br>
+								&nbsp;&nbsp;・シンプルなデザイン</br>
+								&nbsp;&nbsp;・柔軟性と効率性</br>
+								&nbsp;&nbsp;・最小限</br>
+								&nbsp;&nbsp;・サポート</br>
+								&nbsp;&nbsp;・ヘルプ</br>
+								に基づいてユーザビリティを評価し、 UI 上の問題を発見できます。</br>
+								</p>
+							</div>
                 </div>
             </div>
-
-
-
-
-
         </div>
     </div>
-<<<<<<< Updated upstream
     <div class="consulting" id="id5">
-=======
-    <div class="consulting" id = "5">
->>>>>>> Stashed changes
         <div class="container">
             <div class="consult">
                 <div class="consult-me">
@@ -654,7 +718,7 @@ Template Name: service.php
                     <p class="" style="font-size:1.1rem; font-weight: bold;">クリエイティブ制作とは</p>
                     </br>
                     <p class="" style="font-size:0.9rem;">
-                    ブランドのネーミングからブランドスローガンやステートメントのコピーライティング、ブランドイメージにふさわしい商品やモデルの撮影、ブランドサイトやランディングページのWebデザインなど、ブランドを具現化するために必要なクリエイティブを幅広く提供しています。</br>
+                    ブランドのネーミングからブランドスローガンやステートメントのコピーライティング、ブランドイメージにふさわしい商品やモデルの撮影、ブランドサイトやランディングページのWEBデザインなど、ブランドを具現化するために必要なクリエイティブを幅広く提供しています。</br>
                     たったひとつのロゴやパッケージだとしても、ブランドのビジョンや文脈にふさわしいあり方を目指してデザインに取り組んでいます。</br>
                     その一つひとつの積み重ねが、ターゲットやコミュニティとの繋がりを生み出し、</br>
                     対話のチャンスを広げるブランドを実現させると信じて、クライアントと共に関わる全ての仕事を成功させていきたいと願っています。
@@ -717,45 +781,58 @@ Template Name: service.php
 
             <div class="consult3" style="background-color: #9b59b6;">
                 <div class="consult3-contents">
+							<div class="title_box">
+							<img class="pamphlet2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="pamphlet2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content pamphlet2">
                         <a class="">パンフレット・カタログ制作</a>
+								</div>
                     </div>
+
+							<br>
+							<div class = "subbox2 creative2" id = "pamphlet2">
+								<h1>パンフレット・カタログ制作</h1>
+								<p class="subbox2_text">
+									「営業支援」「新商品紹介」「サービス紹介」「総合カタログ」「ブランディング」といった目的や、</br>
+					「BtoB」「BtoC」「商談ツール」「店頭での陳列」「イベント・展示会での配布」「DM」など、</br>
+				それぞれの用途を明確にし、作成します。
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="uniform2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="uniform2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content uniform2">
                         <a class="">ユニフォームデザイン</a>
+								</div>
                     </div>
+
+							<br>
+							<div class = "subbox2 creative2" id = "uniform2">
+								<h1>ユニフォームデザイン</h1>
+								<p class="subbox2_text">
+								ユニフォームは着ている事で私達見る側に対して安心感を与える効果があり、</br>
+								同じ服を着用する事で連帯意識を持ち仕事の精度が上がる、</br>
+								仕事の機能性を上げるなどの役割も果たす、</br>
+								そのようなデザインを提案します。
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="content_creation2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="content_creation2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content content_creation2">
                         <a class="">コンテンツ制作</a>
+								</div>
                     </div>
-                </div>
-
-                <div class = "subbox2 creative2" id = "pamphlet2">
-                    <h1>パンフレット・カタログ制作</h1>
-                    <p class="subbox2_text">
-                    「営業支援」「新商品紹介」「サービス紹介」「総合カタログ」「ブランディング」といった目的や、</br>
-                    「BtoB」「BtoC」「商談ツール」「店頭での陳列」「イベント・展示会での配布」「DM」など、</br>
-                    それぞれの用途を明確にし、作成します。
-                    </p>
-                </div>
-
-                <div class = "subbox2 creative2" id = "uniform2">
-                    <h1>ユニフォームデザイン</h1>
-                    <p class="subbox2_text">
-                    ユニフォームは着ている事で私達見る側に対して安心感を与える効果があり、</br>
-                    同じ服を着用する事で連帯意識を持ち仕事の精度が上がる、</br>
-                    仕事の機能性を上げるなどの役割も果たす、</br>
-                    そのようなデザインを提案します。
-                    </p>
-                </div>
-
-                <div class = "subbox2 creative2" id = "content_creation2">
-                    <h1>コンテンツ制作</h1>
-                    <p class="subbox2_text">
-                    音声と映像の組み合わせによって受ける印象というのが大きく変化し、同じ映像だとしても同時に流す音声によって動画コンテンツの印象が変わります。</br>
-                    このように、音声と映像をセットで用いられる動画コンテンツならではの強みがあり、印象付けを強めたり、世界観を表現したりユーザーに与える印象をコントロールしたりといった施策が展開できます。
-                    </p>
+							<br>
+							<div class = "subbox2 creative2" id = "content_creation2">
+								<h1>コンテンツ制作</h1>
+								<p class="subbox2_text">
+								音声と映像の組み合わせによって受ける印象というのが大きく変化し、同じ映像だとしても同時に流す音声によって動画コンテンツの印象が変わります。</br>
+								このように、音声と映像をセットで用いられる動画コンテンツならではの強みがあり、印象付けを強めたり、世界観を表現したりユーザーに与える印象をコントロールしたりといった施策が展開できます。
+								</p>
+							</div>
                 </div>
             </div>
-
         </div>
     </div>
     <div class="consulting" id="id6">
@@ -825,60 +902,76 @@ Template Name: service.php
 
             <div class="consult3" style="background-color: #777777;">
                 <div class="consult3-contents">
+							<div class="title_box">
+							<img class="in_house_tools2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="in_house_tools2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content in_house_tools2">
                         <a class="">社内ツール改善</a>
+								</div>
                     </div>
+
+							<br>
+							<div class = "subbox2 system" id = "in_house_tools2">
+								<h1>社内ツール改善</h1>
+								<p class="subbox2_text">
+								社内で使われるツールを開発・改善することです。</br>
+								社内ツールは、課題発見から解決まで社内で行うからこそ、ユーザーサイドと開発サイドが近く、ビジネスに直結する有効なツールを生み出すことができます。
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="select_system2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="select_system2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content select_system2">
                         <a class="">システム選定</a>
+								</div>
                     </div>
+
+							<br>
+							<div class = "subbox2 system" id = "select_system2">
+								<h1>システム選定</h1>
+								<p class="subbox2_text">
+							   業務上で利用するシステムは、ビジネスを取り巻く環境の変化や新事業の発足等によって新しいものへと変えるタイミングがやってきます。</br>
+								その際システム選定を成功させるポイントは、現状の業務フローを作成し、業務を可視化することです。</br>
+								そして現状の業務を正しく理解することができれば、現状の業務を改善するためのシステム選定を的確に行うことが可能になります。
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="select_server2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="select_server2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content select_server2">
                         <a class="">サーバー選定</a>
+								</div>
                     </div>
+
+							<br>
+							<div class = "subbox2 system" id = "select_server2">
+								<h1>サーバー選定</h1>
+								<p class="subbox2_text">
+								WEBサービスの構築において、サーバの選定が必要になります。</br>
+								せっかく良いWEBサイトが完成しても、サーバが運用に耐えられるもので無ければ、トラブルの元となります。</br>
+								サーバの特徴を理解した上で、選定することが重要です。</br>
+								サーバは大きく分けると、「ホスティング」「クラウド」「ハウジング」「オンプレミス」といった種類があり、それぞれ各特徴があります。</br>
+								当社ではコストや運用という視点で、「ホスティング」または「クラウド」のサーバでお客様の用途にあったご提案や、代行運営をさせていただいております。</br>
+								</p>
+							</div>
+							<div class="title_box">
+							<img class="vulnerability_diagnosis2 non-active" src="<?php echo get_template_directory_uri(); ?>/img/non-active.png" >
+							<img class="vulnerability_diagnosis2 active2" src="<?php echo get_template_directory_uri(); ?>/img/active.png">
                     <div class="consult3-content vulnerability_diagnosis2">
                         <a class="">脆弱性診断</a>
-                    </div>
-                </div>
+								</div>
+							</div>
 
-                <div class = "subbox2 system" id = "in_house_tools2">
-                    <h1>社内ツール改善</h1>
-                    <p class="subbox2_text">
-                    社内で使われるツールを開発・改善することです。</br>
-                    社内ツールは、課題発見から解決まで社内で行うからこそ、ユーザーサイドと開発サイドが近く、ビジネスに直結する有効なツールを生み出すことができます。
-                    </p>
+							<br>
+							<div class = "subbox2 system" id = "vulnerability_diagnosis2">
+								<h1>脆弱性診断</h1>
+								<p class="subbox2_text">
+								脆弱性診断とは、ネットワーク・OS・ミドルウェアやWEBアプリケーションなどに脆弱性がないか診断することです。</br>
+								脆弱性診断を実施することでネットワーク/サーバ、WEBアプリケーションのセキュリティの現状を確認することで攻撃者からの悪意ある攻撃や情報漏えい事故などのリスクを未然に防ぐことができます。
+								</p>
+							</div>
                 </div>
-
-                <div class = "subbox2 system" id = "select_system2">
-                    <h1>システム選定</h1>
-                    <p class="subbox2_text">
-                　  業務上で利用するシステムは、ビジネスを取り巻く環境の変化や新事業の発足等によって新しいものへと変えるタイミングがやってきます。</br>
-                    その際システム選定を成功させるポイントは、現状の業務フローを作成し、業務を可視化することです。</br>
-                    そして現状の業務を正しく理解することができれば、現状の業務を改善するためのシステム選定を的確に行うことが可能になります。
-                    </p>
-                </div>
-
-                <div class = "subbox2 system" id = "select_server2">
-                    <h1>サーバー選定</h1>
-                    <p class="subbox2_text">
-                    Webサービスの構築において、サーバの選定が必要になります。</br>
-                    せっかく良いWebサイトが完成しても、サーバが運用に耐えられるもので無ければ、トラブルの元となります。</br>
-                    サーバの特徴を理解した上で、選定することが重要です。</br>
-                    サーバは大きく分けると、「ホスティング」「クラウド」「ハウジング」「オンプレミス」といった種類があり、それぞれ各特徴があります。</br>
-                    当社ではコストや運用という視点で、「ホスティング」または「クラウド」のサーバでお客様の用途にあったご提案や、代行運営をさせていただいております。</br>
-                    </p>
-                </div>
-
-                <div class = "subbox2 system" id = "vulnerability_diagnosis2">
-                    <h1>脆弱性診断</h1>
-                    <p class="subbox2_text">
-                    脆弱性診断とは、ネットワーク・OS・ミドルウェアやWebアプリケーションなどに脆弱性がないか診断することです。</br>
-                    脆弱性診断を実施することでネットワーク/サーバ、Webアプリケーションのセキュリティの現状を確認することで攻撃者からの悪意ある攻撃や情報漏えい事故などのリスクを未然に防ぐことができます。
-                    </p>
-                </div>
-
             </div>
-
-
-
         </div>
     </div>
     <script type="text/javascript">
@@ -1035,49 +1128,54 @@ Template Name: service.php
                     let useClassName = setClassName;
                     let useIdName = idName;
                     let clickClassName = ckickClass;
+					
+							let imgIdName = idName + "#iconimg";
 
                     //クリックした要素のクラス名取得
                     let className = clickClassName;
 
                     //現在表示している要素のクラス名取得
-                    let currentDisps = jQuery(useClassName);
-                    for (var i = 0; i < currentDisps.length; i++) {
+//                     let currentDisps = jQuery(useClassName);
+//                     for (var i = 0; i < currentDisps.length; i++) {
                         
-                        //取得した要素のID情報をcurrentDispIdに格納
-                        currentDispId = jQuery(currentDisps[i]).attr('id');
+//                         //取得した要素のID情報をcurrentDispIdに格納
+//                         currentDispId = jQuery(currentDisps[i]).attr('id');
 
-                        //取得した要素のスタイルにて、display:blockの場合抜ける
-                        if(jQuery(currentDisps[i]).css('display') == 'block'){
+//                         //取得した要素のスタイルにて、display:blockの場合抜ける
+//                         if(jQuery(currentDisps[i]).css('display') == 'block'){
 
-                            //ここでbreakした場合、currentDispIdはクリアされない
-                            break;
-                        }
+//                             //ここでbreakした場合、currentDispIdはクリアされない
+//                             break;
+//                         }
 
-                        //currentDispIdをクリアする
-                        currentDispId = "";
-                    }
+//                         //currentDispIdをクリアする
+//                         currentDispId = "";
+//                     }
 
                     //クリックした要素のクラス名が、現在表示している要素のクラス名に含まれなければ実行
-                    if ( !className.match(currentDispId)) {
-                        jQuery(useClassName).slideUp(400);
-                    }
+//                     if ( !className.match(currentDispId)) {
+//                         jQuery(useClassName).slideUp(400);
+//                     }
 
                     if (jQuery(useIdName).css('display') == 'none') {
-                        jQuery(useIdName).slideDown(400);
+								jQuery(useIdName).slideDown(400);
+								console.log(jQuery(useIdName.replace('#', '.')+'.non-active').css('display'));
+// 								jQuery(useIdName+'#non-active').css('display','none');
+								jQuery(useIdName.replace('#', '.')+'.non-active').css('display','none')
+								jQuery(useIdName.replace('#', '.')+'.active2').css('display','inline-block')
                     }
                     else{
                         jQuery(useIdName).slideUp(400);
+								 jQuery(imgIdName).css('display','none');
+								jQuery(useIdName.replace('#', '.')+'.active2').css('display','none')
+								jQuery(useIdName.replace('#', '.')+'.non-active').css('display','inline-block')
                     }
                 };
             //詳細出力 end
 
         });
 </script>
-<footer>
-    <div class="footer">
-        <p>株式会社open store</p>
-    </div>
-</footer>
+<?php get_footer(); ?> 
 </div>
 </body>
 </html>
